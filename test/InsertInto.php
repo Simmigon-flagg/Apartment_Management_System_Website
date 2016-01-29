@@ -11,56 +11,78 @@
 <?php
 	include 'dbConnect.php';
 	// set parameters and execute
-	$firstNameFromWebsite = "Simmigon";
+	$firstNameFromWebsite = "Jovy";
 	$lastNameFromWebsite = "Flagg";
-	$userNameFromWebsite = "SimmDaMan";
-	$dateOfBirthFromWebsite = "09061980";
-	$socialSecurityFromWebsite = "2222222222";
-	$emailAddressFromWebsite = "blankexamplecom";
-	$passwordFromWebsite = "QrYwRh21Q";
-	$cellNumberFromWebsite = "4044044040";
-	$homeNumberFromWebsite = "7707707770";
-	$addressFromWebsite = "123 Fake St Atlanta Ga 99999";
-	$employedByFromWebsite = "Google";
-	$occupationFromWebsite = "Software Developer";
-	$monthlyGrossPayFromWebsite = "89000000";
-	$criminalBackgroundCheckFromWebsite = "Yes";
+	$userNameFromWebsite = "Jo";
+	$dateOfBirthFromWebsite = "09/06/1992";
+	$passwordFromWebsite = "NotSafe";
+	$socialSecurityFromWebsite = "111-111-1111";
+	//$FKidClient = "";
 
-	$sql = "INSERT INTO client
+
+	$sql = "INSERT INTO applicant
 (
 firstName,
 lastName,
 userName,
 dateOfBirth,
-socialSecurity,
-emailAddress,
 password,
-cellNumber,
-homeNumber,
-address,
-employedBy,
-occupation)
+socialSecurity
+)
 VALUES
 (
-'<{$firstNameFromWebsite}>',
+'{$firstNameFromWebsite}',
 '{$lastNameFromWebsite}',
 '{$userNameFromWebsite}',
 '{$dateOfBirthFromWebsite}',
-'{$socialSecurityFromWebsite}',
-'{$emailAddressFromWebsite}',
 '{$passwordFromWebsite}',
-'{$cellNumberFromWebsite}',
-'{$homeNumberFromWebsite}',
-'{$addressFromWebsite}',
-'{$employedByFromWebsite}',
-'{$occupationFromWebsite}');
+'{$socialSecurityFromWebsite}');
 ";
-	
-	if ($conn->query($sql) === TRUE) {
-		echo "New record created successfully";
-	} else {
-		echo "Error: " . $sql . "<br>" . $conn->error;
-	}
+
+//get the last key
+$last_id = null;
+if ($conn->query($sql) === TRUE) {
+    $last_id = $conn->insert_id;
+	 echo "added person";
+} else {
+    echo "Error: " . $sql . "<br>" . $conn->error."<br>";
+}
+
+	$addressFromWebsite = "123 Fake St Ga 30303";
+	$emailAddressFromWebsite = "blank@example.com";
+	$phoneNumberFromWebsite = "770-899-4568";
+	$employedByFromWebsite = "Voya";
+	$occupationFromWebsite = "Software Developer";
+	$monthlyGrossPayFromWebsite = "89000.00";
+	$criminalBackgroundCheckFromWebsite = "Yes";
+
+$sql = "INSERT INTO user
+(
+address,
+emailAddress,
+phoneNumber,
+employedBy,
+occupation,
+monthlyGrossPay,
+criminalBackgroundCheck,
+idApplicant)
+VALUES
+(
+'{$addressFromWebsite}',
+'{$emailAddressFromWebsite}',
+'{$phoneNumberFromWebsite}',
+'{$employedByFromWebsite}',
+'{$occupationFromWebsite}',
+'{$monthlyGrossPayFromWebsite}',
+'{$criminalBackgroundCheckFromWebsite}',
+'{$last_id}');
+";
+
+if ($conn->query($sql) === TRUE) {	
+    echo "<br>added user ";
+}else{
+	 echo "Error: " . $sql . "<br>" . $conn->error;
+}
 
 	$conn->close();
 ?>

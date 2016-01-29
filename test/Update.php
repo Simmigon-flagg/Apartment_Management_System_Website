@@ -11,7 +11,7 @@
 </html>
 <?php
 include 'dbConnect.php';
-$sql = "UPDATE client SET password ='QwfWgy3f'";
+$sql = "UPDATE applicant SET password ='QwfWgy3f'";
 
 if ($conn->query($sql) === TRUE) {
     echo "All Records updated successfully";
