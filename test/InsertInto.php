@@ -11,11 +11,11 @@
 <?php
 	include 'dbConnect.php';
 	// set parameters and execute
-	$firstNameFromWebsite = "Jovy";
-	$lastNameFromWebsite = "Flagg";
-	$userNameFromWebsite = "Jo";
-	$dateOfBirthFromWebsite = "09/06/1992";
-	$passwordFromWebsite = "NotSafe";
+	$firstNameFromWebsite = "admin";
+	$lastNameFromWebsite = "admin";
+	$userNameFromWebsite = "admin";
+	$dateOfBirthFromWebsite = "01/01/0000";
+	$passwordFromWebsite = "admin";
 	$socialSecurityFromWebsite = "111-111-1111";
 	//$FKidClient = "";
 
@@ -48,12 +48,12 @@ if ($conn->query($sql) === TRUE) {
     echo "Error: " . $sql . "<br>" . $conn->error."<br>";
 }
 
-	$addressFromWebsite = "123 Fake St Ga 30303";
-	$emailAddressFromWebsite = "blank@example.com";
-	$phoneNumberFromWebsite = "770-899-4568";
-	$employedByFromWebsite = "Voya";
-	$occupationFromWebsite = "Software Developer";
-	$monthlyGrossPayFromWebsite = "89000.00";
+	$addressFromWebsite = "admin street";
+	$emailAddressFromWebsite = "admin@example.com";
+	$phoneNumberFromWebsite = "000-000-0000";
+	$employedByFromWebsite = "admin home";
+	$occupationFromWebsite = "admin Software Developer";
+	$monthlyGrossPayFromWebsite = "0.00";
 	$criminalBackgroundCheckFromWebsite = "Yes";
 
 $sql = "INSERT INTO user

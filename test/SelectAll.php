@@ -10,8 +10,7 @@
 </html>
 <?php
 include 'dbConnect.php';
-$sql = "SELECT * FROM applicant INNER JOIN user
-ON applicant.idApplicant = user.idApplicant;";
+$sql = "SELECT * FROM applicant INNER JOIN user ON applicant.idApplicant = user.idApplicant;";
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
@@ -30,7 +29,6 @@ if ($result->num_rows > 0) {
 		"emailAddress:&nbsp&nbsp".$row["emailAddress"]."<br><br>".
 		"phoneNumber:&nbsp&nbsp".$row["phoneNumber"]."<br><br>".
 		"employedBy:&nbsp&nbsp".$row["employedBy"]."<br><br>".
-		"dateOfBirth:&nbsp&nbsp".$row["dateOfBirth"]."<br><br>".
 		"monthlyGrossPay:&nbsp&nbsp".$row["monthlyGrossPay"]."<br><br>". 
 		"criminalBackgroundCheck:&nbsp&nbsp".$row["criminalBackgroundCheck"]."<br><br>".
 		"<hr />";
