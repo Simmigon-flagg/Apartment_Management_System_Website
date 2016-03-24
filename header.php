@@ -40,16 +40,19 @@
       .row.content {height:auto;} 
     }
   </style>
+  
 </head>
 <body>
- 		<a href="data/InsertInto.php"><h3>Create</h3></a>
-		<a href="data/SelectAll.php"><h3>Read</h3></a>
-		<a href="data/Update.php"><h3>Update</h3></a>
+<?php include_once("menu.html")?>
 
-		<a href="data/Delete.php"><h3>Delete</h3></a>
-		<p>The database will not work without a server and matching table names.</p>
-		<a href="data/Delete.php"><h3>Delete</h3></a>
-	</body>
-</html>
 
-	
+
+<div class="container-fluid text-center">    
+  <div class="row content">
+    <div class="col-sm-2 sidenav">
+      <p><a href="#">Facebook</a></p>
+      <p><a href="#">twitter</a></p>
+      <p><a href="#">Google+</a></p>
+    </div>
+    <div class="col-sm-8 text-left"> 
+      <h1></h1>
