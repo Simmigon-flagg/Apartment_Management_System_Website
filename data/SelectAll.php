@@ -10,7 +10,7 @@
 </html>
 <?php
 include 'dbConnect.php';
-$sql = "SELECT * FROM applicant INNER JOIN user ON applicant.idApplicant = user.idApplicant;";
+$sql = "SELECT * FROM applicanttable INNER JOIN usertable ON applicanttable.idApplicant = usertable.idApplicant;";
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
