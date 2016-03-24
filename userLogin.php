@@ -19,7 +19,7 @@
     </a>
     <div id="demo2" class="collapse">
       <p><a href="payThirdParty.php">Pay Third party</a></p>
-      <p><a href="addNewUtility.php">Add new Utility</a></p>
+      <p><a href="addNewUtility.php">Add New Utility</a></p>
     </div>
   </div>
   <div class="col-sm-4">
@@ -28,8 +28,8 @@
       <img src="images/blue_button.jpg" class="img-circle person" alt="Maintenance Request ">
     </a>
     <div id="demo3" class="collapse">
-      <p><a href="addNewRequest.php">Add new Request</a></p>
-      <p><a href="viewPassRequest.php">View Pass request</a></p>
+      <p><a href="addNewRequest.php">Add New Request</a></p>
+      <p><a href="viewMaintenanceHistory.php">View Maintenance History</a></p>
     </div>
   </div>
 </div>
