@@ -4,7 +4,7 @@
 		<title>SELECT</title>
 	</head>
 	<body>
-		<a href="../index.html"><h3>Home</h3></a>
+		<a href="../index.php"><h3>Home</h3></a>
 		<p>This is a paragraph.</p>
 	</body>
 </html>

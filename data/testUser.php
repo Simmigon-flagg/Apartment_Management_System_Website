@@ -3,6 +3,39 @@ include 'dbConnect.php';
 
 $sql = "SELECT * FROM applicanttable;";
 $result = $conn->query($sql);
+
+if ($result->num_rows > 0) {
+    echo '<table align="left"
+	cellspacing="5" cellpadding="8">
+	
+	<tr><td align="left"><b>ID</b></td>
+	<td align="left"><b>First Name</b></td>
+	<td align="left"><b>Last Name</b></td>
+	<td align="left"><b>Username</b></td>
+	<td align="left"><b>Date of Birth</b></td>
+	<td align="left"><b>Password</b></td>
+	<td align="left"><b>Social Security Number</b></td></tr>';
+	
+	while($row = $result->fetch_assoc()){
+		
+		echo '<tr><td align="left">' .
+		$row['idApplicant'] . '</td><td align="left">' .
+		$row['firstName'] . '</td><td align="left">' .
+		$row['lastName'] . '</td><td align="left">' .
+		$row['userName'] . '</td><td align="left">' .
+		$row['dateOfBirth'] . '</td><td align="left">' .
+		$row['password'] . '</td><td align="left">' .
+		$row['socialSecurity'] . '</td><td align="left">';
+		
+		echo '</tr>';
+	}
+	
+    echo "</table>";
+} else {
+    echo "0 results";
+}
+$conn->close();
+
 /*
 if ($result->num_rows > 0) {
     // output data of each row
@@ -20,7 +53,7 @@ if ($result->num_rows > 0) {
 } else {
     echo "0 results";
 }
-*/
+
 if ($result->num_rows > 0) {
     echo "<table>
 	<tr>
@@ -49,7 +82,7 @@ if ($result->num_rows > 0) {
 }
 $conn->close();
 
-/*Table: applicanttable
+Table: applicanttable
 Columns:
 idApplicant int(11) AI PK 
 firstName varchar(45) 
