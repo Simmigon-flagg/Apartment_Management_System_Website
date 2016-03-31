@@ -10,14 +10,49 @@
 	<br><br><br>
 	<h1><p id="centerHeader">Helping You Find Your New Home</p></h1>
 	<h4><p id="centerHeader"> Your personalized apartment search, from start to finish </p></h1>
-
+<br>
 	</div>
 	
-	<div>
-	<img id="slideshow"  src="Images/randomehome.jpg">
-    <img id="slideshow"  src="Images/apartments.jpg">
+
+	
+	
+  <div class="row">
+    <div class="col-sm-4">
+      <p class="text-center"><strong>Apt1</strong></p><br>
+      <a href="#demo" data-toggle="collapse">
 	 <img id="slideshow"  src="Images/apartments.jpg">
-	</div>
+      </a>
+      <div id="demo" class="collapse">
+        <p>Price</p>
+        <p>Rooms</p>
+        <p>Bathrooms</p>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <p class="text-center"><strong>apt2</strong></p>
+      <a href="#demo2" data-toggle="collapse">
+	 <img id="slideshow"  src="Images/apartments.jpg">
+      </a>
+      <div id="demo2" class="collapse">
+        <p>Price</p>
+        <p>Rooms</p>
+        <p>Bathrooms</p>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <p class="text-center"><strong>apt3</strong></p>
+      <a href="#demo3" data-toggle="collapse">
+	 <img id="slideshow"  src="Images/apartments.jpg">
+      </a>
+      <div id="demo3" class="collapse">
+        <p>Price</p>
+        <p>Rooms</p>
+        <p>Bathrooms</p>
+      </div>
+    </div>
+  </div>
+</div>
+
 	
 </head>
 <?php include("footer.php");?>
