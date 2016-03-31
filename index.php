@@ -8,8 +8,8 @@
 	
 	<div>
 	<br><br><br>
-	<h1><p id="centerHeader">Experience the Luxe difference</p></h1>
-	<h4><p id="centerHeader"> Your personalized apartment search, from start to finish </p></h1>
+	<h1><p id="centerHeader">The Luxe Difference</p></h1>
+	<h4><p id="centerHeader"> Your Home. Your Life. Your World </p></h1>
 
 	</div>
 	
