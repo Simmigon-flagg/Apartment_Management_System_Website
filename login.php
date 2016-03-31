@@ -1,5 +1,5 @@
 <?php include_once("header.php");?>
-<h1>Login</h1>
+<h1>Resident Login</h1>
 <form method="POST" action="userLogin.php" role="form" ">
   <div class="form-group">
     <label for="email">Email address:</label>
