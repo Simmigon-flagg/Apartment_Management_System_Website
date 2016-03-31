@@ -9,7 +9,7 @@
 	<div>
 	<br><br><br>
 	<h1><p id="centerHeader">The Luxe Difference</p></h1>
-	<h4><p id="centerHeader"> Ideal Locations. Seamless Amenities. Perfect Apartments </p></h1>
+	<h4><p id="centerHeader"> Ideal Locations. Impressive Amenities. Perfect Apartments </p></h1>
 
 	</div>
 	
