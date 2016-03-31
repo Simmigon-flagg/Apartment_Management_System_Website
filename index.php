@@ -14,9 +14,9 @@
 	</div>
 	
 	<div>
-	<img id="slideshow"  src="Images/Midtown.jpg">
-    <img id="slideshow"  src="Images/Buckhead.jpg">
-	 <img id="slideshow"  src="Images/apartments.jpg">
+	<img id="slideshow"  src="Images/Downtown 2.jpg">
+    <img id="slideshow"  src="Images/Midtown.jpg">
+	 <img id="slideshow"  src="Images/Buckhead.jpg">
 	 
 	</div>
 	
