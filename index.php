@@ -12,9 +12,7 @@
 	<h4><p id="centerHeader"> Your personalized apartment search, from start to finish </p></h1>
 <br>
 	</div>
-	
-
-	
+		
 	
   <div class="row">
     <div class="col-sm-4">
