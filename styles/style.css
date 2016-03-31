@@ -6,36 +6,21 @@
     text-align: center;
 }
 
-/* search box */
-input[type=text] {
-    width: 130px;
-    box-sizing: border-box;
-    border: 2px solid #ccc;
-    border-radius: 4px;
-    font-size: 16px;
-    background-color: white;
-    background-image: url('searchicon.png');
-    background-position: 10px 10px; 
-    background-repeat: no-repeat;
-    padding: 12px 20px 12px 40px;
-    -webkit-transition: width 0.4s ease-in-out;
-    transition: width 0.4s ease-in-out;
+
+/*image slideshow*/
+#slideshow { 
+    margin: 50px auto; 
+    position: relative; 
+    width: 100px; 
+    height: 100px; 
+    padding: 5px; 
+    box-shadow: 0 0 20px rgba(0,0,0,0.4); 
 }
 
-/*this's for 3 blocks on the homepage*/
-input[type=text]:focus {
-    width: 60%;
-}
-
-.floating-box {
-    float: left;
-    width: 150px;
-    height: 75px;
-    margin: 10px;
-    border: 3px solid #73AD21;  
-}
-
-.after-box {
-    clear: left;
-    border: 3px solid red;      
+#slideshow > div { 
+    position: absolute; 
+    top: 5px; 
+    left: 5px; 
+    right: 5px; 
+    bottom: 5px; 
 }

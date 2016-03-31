@@ -10,12 +10,14 @@
 	<br><br><br>
 	<h1><p id="centerHeader">Helping You Find Your New Home</p></h1>
 	<h4><p id="centerHeader"> Your personalized apartment search, from start to finish </p></h1>
-	<form>
-  <input type="text" name="search" placeholder="Search..">
-</form>
+
 	</div>
 	
-	
+	<div>
+	<img id="slideshow"  src="Images/randomehome.jpg">
+    <img id="slideshow"  src="Images/apartments.jpg">
+	 <img id="slideshow"  src="Images/apartments.jpg">
+	</div>
 	
 </head>
 <?php include("footer.php");?>
