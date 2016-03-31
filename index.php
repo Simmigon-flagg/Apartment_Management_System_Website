@@ -14,7 +14,7 @@
 	</div>
 	
 	<div>
-	<img id="slideshow"  src="Images/randomehome.jpg">
+	<img id="slideshow"  src="Images/Midtown.jpg">
     <img id="slideshow"  src="Images/apartments.jpg">
 	 <img id="slideshow"  src="Images/apartments.jpg">
 	</div>
