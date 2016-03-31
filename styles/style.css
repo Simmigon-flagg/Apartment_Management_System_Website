@@ -11,16 +11,16 @@
 #slideshow { 
     margin: 50px auto; 
     position: relative; 
-    width: 100px; 
-    height: 100px; 
+    width: 150px; 
+    height: 150px; 
     padding: 3px; 
     box-shadow: 0 0 20px rgba(0,0,0,0.4); 
 }
 
 #slideshow > div { 
     position: absolute; 
-    top: 5px; 
-    left: 5px; 
-    right: 5px; 
-    bottom: 5px; 
+    top: 6px; 
+    left: 6px; 
+    right: 6px; 
+    bottom: 6px; 
 }
