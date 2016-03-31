@@ -1,31 +1,29 @@
 <?php
 include 'dbConnect.php';
 
-$sql = "SELECT * FROM applicanttable;";
+$sql = "SELECT * FROM user;";
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
     echo '<table align="left"
 	cellspacing="5" cellpadding="8">
 	
-	<tr><td align="left"><b>ID</b></td>
+	<tr><td align="left"><b>User ID</b></td>
 	<td align="left"><b>First Name</b></td>
 	<td align="left"><b>Last Name</b></td>
 	<td align="left"><b>Username</b></td>
 	<td align="left"><b>Date of Birth</b></td>
-	<td align="left"><b>Password</b></td>
-	<td align="left"><b>Social Security Number</b></td></tr>';
+	<td align="left"><b>Password</b></td></tr>';
 	
 	while($row = $result->fetch_assoc()){
 		
 		echo '<tr><td align="left">' .
-		$row['idApplicant'] . '</td><td align="left">' .
+		$row['iduser'] . '</td><td align="left">' .
 		$row['firstName'] . '</td><td align="left">' .
 		$row['lastName'] . '</td><td align="left">' .
 		$row['userName'] . '</td><td align="left">' .
 		$row['dateOfBirth'] . '</td><td align="left">' .
-		$row['password'] . '</td><td align="left">' .
-		$row['socialSecurity'] . '</td><td align="left">';
+		$row['pass'] . '</td><td align="left">';
 		
 		echo '</tr>';
 	}
