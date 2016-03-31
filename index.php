@@ -5,6 +5,8 @@
 	<meta name="author" content="your name" />
 	<meta name="description" content="" />
 		<link rel="stylesheet" href="styles/style.css" type="text/css" />
+	<div id = "applyNow">
+	</div>
 	
 	<div>
 	<br>
