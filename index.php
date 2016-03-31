@@ -22,7 +22,7 @@
           <img src = "Images/Downtown 2.jpg" alt="Paris" width="400" height="300">
           <p><strong>Downtown</strong></p>
           <p>Descriptions</p>
-          <a class="btn" href="index.php"> <button class="btn">Buy Tickets</button> </a>
+          <a class="btn" href="index.php"> <button class="btn">View</button> </a>
         </div>
       </div>
       <div class="col-sm-4">
@@ -30,7 +30,7 @@
           <img src="Images/Midtown.jpg" alt="New York" width="400" height="300">
           <p><strong>Midtown</strong></p>
           <p>Descriptions</p>
-         <a class="btn" href="index.php"> <button class="btn">Buy Tickets</button> </a>
+         <a class="btn" href="index.php"> <button class="btn">View</button> </a>
 		 <!-- <a class="navbar-brand" href="index.php">Apartment Rental</a> -->
         </div>
       </div>
@@ -39,7 +39,7 @@
           <img src="Images/Buckhead.jpg" alt="San Francisco" width="400" height="300">
           <p><strong>Buckhead</strong></p>
           <p>Descriptions</p>
-          <a class="btn" href="index.php"> <button class="btn">Buy Tickets</button> </a>
+          <a class="btn" href="index.php"> <button class="btn">View</button> </a>
         </div>
       </div>
     </div>
