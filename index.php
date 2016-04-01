@@ -6,11 +6,12 @@
 	<meta name="description" content="" />
 		<link rel="stylesheet" href="styles/style.css" type="text/css" />
 	<div id = "applyNow">
-    <img src="Images/cityview3.jpg">
-    </div>  
+   <body background= "Images/cityview3.jpg" >
 	<br>
-	<h1><p id="centerHeader">The Luxe Difference</p></h1>
-	<h4><p id="centerHeader"> Ideal Locations. Impressive Amenities. Perfect Apartments </p></h1>
+	<h1><p id="centerHeader"><font color= "white"> The Luxe Difference</font></p></h1>
+	<h4><p id="centerHeader"><font color= "white"> Ideal Locations. Impressive Amenities. Impeccable Apartments </font></p></h1>
+	<div class="search-groups">
+	</div>
 	</div>
 	<br/><br/><br/>
 	 <div class="row text-center">
