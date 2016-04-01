@@ -13,6 +13,7 @@
 	<div class="search-groups">
 	</div>
 	</div>
+	<br>
 	<br/><br/><br/>
 	 <div class="row text-center">
       <div class="col-sm-4">
@@ -26,7 +27,7 @@
         <div class="thumbnail">
           <img src="Images/Midtown.jpg" alt="New York" width="400" height="300">
          <a class="btn" href="index.php"> <button class="btn">Luxe Midtown</button> </a>
-         <p><strong>Where historic significance meets a mouth- watering food scene</strong></p>
+         <p><strong>Where historical significance meets a mouth- watering food scene</strong></p>
 		 <!-- <a class="navbar-brand" href="index.php">Apartment Rental</a> -->
         </div>
       </div>
