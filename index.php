@@ -35,7 +35,7 @@
         <div class="thumbnail">
           <img src="Images/Buckhead 2.jpg" alt="San Francisco" width="400" height="300">
           <a class="btn" href="index.php"> <button class="btn">Luxe Buckhead</button> </a>
-          <p><strong>A city of elegance and business, home to families and professionals alike</strong></p>
+          <p><strong>A community of elegance and business, home to families and professionals alike</strong></p>
         </div>
       </div>
 </div>
