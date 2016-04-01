@@ -16,9 +16,9 @@
 	 <div class="row text-center">
       <div class="col-sm-4">
         <div class="thumbnail">
-          <img src = "Images/Downtown 2.jpg" alt="Paris" width="400" height="300">
+          <img src = "Images/Downtown 3.jpg" alt="Paris" width="400" height="300">
           <a class="btn" href="index.php"> <button class="btn">Luxe Downtown</button> </a>
-          <p><strong>Be at the center of it all</strong></p>
+          <p><strong>Be at the center of it all, steps away from amazing attractions and entertainment</strong></p>
         </div>
       </div>
       <div class="col-sm-4">
@@ -31,9 +31,9 @@
       </div>
       <div class="col-sm-4">
         <div class="thumbnail">
-          <img src="Images/Buckhead.jpg" alt="San Francisco" width="400" height="300">
+          <img src="Images/Buckhead 2.jpg" alt="San Francisco" width="400" height="300">
           <a class="btn" href="index.php"> <button class="btn">Luxe Buckhead</button> </a>
-          <p><strong>A city of elegance and business home to families and professionals alike</strong></p>
+          <p><strong>A city of elegance and business, home to families and professionals alike</strong></p>
         </div>
       </div>
 </div>
