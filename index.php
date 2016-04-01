@@ -6,15 +6,11 @@
 	<meta name="description" content="" />
 		<link rel="stylesheet" href="styles/style.css" type="text/css" />
 	<div id = "applyNow">
-
     <img src="Images/cityview3.jpg">
-    
     </div>  
 	<br>
 	<h1><p id="centerHeader">The Luxe Difference</p></h1>
 	<h4><p id="centerHeader"> Ideal Locations. Impressive Amenities. Perfect Apartments </p></h1>
-
-
 	</div>
 	<br/><br/><br/>
 	 <div class="row text-center">
@@ -40,8 +36,6 @@
           <p><strong>A city of elegance and business home to families and professionals alike</strong></p>
         </div>
       </div>
-    </div>
-  </div>
 </div>
 	
 </head>
