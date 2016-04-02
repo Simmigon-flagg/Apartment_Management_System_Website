@@ -10,7 +10,7 @@
 	<br>
 	<br>
 	<h1><p id="centerHeader"><font color= "white"> The Luxe Difference</font></p></h1>
-	<h4><p id="centerHeader"><font color= "white"> Ideal Locations. Impressive Amenities. Impeccable Apartments </font></p></h1>
+	<h4><p id="centerHeader"><font color= "white"> Ideal Locations. Impressive Amenities. Immaculate Apartments </font></p></h1>
 	<div class="search-groups">
 	</div>
 	</div>
