@@ -1,3 +1,4 @@
+
 <?php include_once("header.php");?>
 <h3>Sign up</h3>
 <form role="form" method="POST" action="confirmationPage.php">
@@ -28,4 +29,3 @@
   <button type="submit" class="btn btn-default">Submit</button>
 </form>
 <?php include_once("footer.php");?>
-
