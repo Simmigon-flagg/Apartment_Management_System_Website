@@ -36,6 +36,7 @@
 ?>
 
 <h1>Resident Login</h1>
+
 <div id="main">
 
 <form action="" method="POST" role="form">
