@@ -7,7 +7,7 @@
 </div>
 
 <footer class="container-fluid text-center">
-<p>0<sup>th</sup> Team Project</p> 
+<p>0<sup>th</sup> Team Project</p>
   
 </footer>
 <script src="javaScriptController.js"></script>

@@ -69,3 +69,8 @@
   width: 400px;
   text-align: center;
   display: inline;
+  
+#rightandleft {
+    border-width:5px;	
+    border-right-style:outset;
+}

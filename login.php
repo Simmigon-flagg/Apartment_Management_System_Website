@@ -34,15 +34,23 @@
    }
  
 ?>
-
-<h1>Resident Login</h1>
-
+<html>
+<head>
+<title>My First Website</title>
+	<meta name="author" content="your name" />
+	<meta name="description" content="" />
+		<link rel="stylesheet" href="styles/style.css" type="text/css" />
+		
+		<div id = "applyNow">
+		
+<h1><p id="centerHeader">Resident Login</p></h1>
 <div id="main">
 
 <form action="" method="POST" role="form">
   <div class="form-group">
     <label for="username">Email address:</label>
     <input type="email" class="form-control" name="username">
+  </div>
   </div>
   <div class="form-group">
 <p class="hidden"></p>
@@ -54,6 +62,7 @@
       <label><input type="checkbox"> Remember me</label>
     </div> -->
   <button type="submit" name="submit" class="btn btn-default">Submit</button>
+  </div>
 </form>
 
 

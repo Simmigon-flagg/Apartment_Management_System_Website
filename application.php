@@ -1,9 +1,12 @@
 <?php include_once("header.php");?>
-
-<h3>Application</h3>
-
-<object width="200" height="200" style="border:5px solid black"></object>
-
+<html>
+<head>
+	<meta name="author" content="your name" />
+	<meta name="description" content="" />
+		<link rel="stylesheet" href="styles/style.css" type="text/css" />
+		
+<h3 id="centerHeader" >Application</h3>
+<div style="width: 200px; margin: 100px auto 0 auto;">
 <form role="form" method="POST" action="confirmationPage.php">
   <div class="form-group">
     <label for="firstName">First Name:</label>
@@ -47,5 +50,5 @@
   </div>
   <button type="submit" class="btn btn-default">Submit</button>
 </form>
-
+</div>
 <?php include_once("footer.php");?>
