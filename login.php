@@ -2,6 +2,8 @@
 
 <?php
 
+
+
    include("data/dbConnect.php");
    session_start();
    
@@ -34,12 +36,16 @@
 ?>
 
 <h1>Resident Login</h1>
+<div id="main">
+
 <form action="" method="POST" role="form">
   <div class="form-group">
     <label for="username">Email address:</label>
     <input type="email" class="form-control" name="username">
   </div>
   <div class="form-group">
+<p class="hidden"></p>
+
     <label for="pwd">Password:</label>
     <input type="password" class="form-control" name="pwd">
   </div>

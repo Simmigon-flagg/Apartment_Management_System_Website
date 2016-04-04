@@ -27,3 +27,9 @@
     right: 6px; 
     bottom: 6px; 
 }
+.middle {
+    margin: auto;
+    width: 60%;
+    border: 3px solid #73AD21;
+    padding: 10px;
+}

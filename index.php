@@ -40,7 +40,12 @@
         </div>
       </div>
 </div>
-	
+p {
+    border: 5px solid white;
+}
+</style>
+</head>
+<body>	
 </head>
 <?php include("footer.php");?>
 <!--Simmigon -->

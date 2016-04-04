@@ -34,6 +34,9 @@
 
 
 <h3>Application</h3>
+
+<object width="200" height="200" style="border:5px solid black"></object>
+
 <form role="form" method="POST" action="confirmationPage.php">
   <div class="form-group">
     <label for="firstName">First Name:</label>
