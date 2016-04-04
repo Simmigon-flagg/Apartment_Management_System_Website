@@ -1,6 +1,6 @@
 <?php include("header.php");
 include('session.php');
-echo $login_session;          //for testing. prints user's first name
+echo 'Welcome, ' .$login_session , '!';          //for testing. prints user's first name
 ?>
   <h2><a href = "logout.php">Sign Out</a></h2>             <!--ugly sign out button for testing-->
 <h1>Welcome Home </h1>

@@ -42,10 +42,10 @@
   <div class="form-group">
     <label for="pwd">Password:</label>
     <input type="password" class="form-control" name="pwd">
-  </div>
+  </div> <!--
   <div class="checkbox">
       <label><input type="checkbox"> Remember me</label>
-    </div>
+    </div> -->
   <button type="submit" name="submit" class="btn btn-default">Submit</button>
 </form>
 
