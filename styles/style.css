@@ -33,3 +33,39 @@
     border: 3px solid #73AD21;
     padding: 10px;
 }
+#profile_leftPanel {<!-- w  w  w .j  a  v a2s.  c om-->
+  width: 150px;
+  float: left;
+  border-right: 1px;
+  margin-right: 20px;
+}
+
+#profile_rightPanel_center {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+#recentStatus {
+  width: 400px;
+  text-align: center;
+  display: inline;
+}
+
+#profile_rightPanel {<!-- w  w  w .j  a  v a2s.  c om-->
+  width: 150px;
+  float: right;
+  border-left: 1px;
+  margin-left: 20px;
+}
+
+#profile_leftPanel_center {
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+#idkStatus {
+  width: 400px;
+  text-align: center;
+  display: inline;

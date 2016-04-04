@@ -5,8 +5,19 @@
 	<meta name="author" content="your name" />
 	<meta name="description" content="" />
 		<link rel="stylesheet" href="styles/style.css" type="text/css" />
+
 	<div id = "applyNow">
    <body background= "Images/cityview3.jpg" >
+     <div id="profile_leftPanel">
+	   <div id="profile_rightPanel">
+    <div id="profile_rightPanel_center">
+      <div id="recentStatus">
+	  
+	       <div id="profile_rightPanel">
+	   <div id="profile_leftPanel">
+    <div id="profile_leftPanel_center">
+      <div id="idkStatus">
+	  
 	<br>
 	<br>
 	<h1><p id="centerHeader"><font color= "white"> The Luxe Difference</font></p></h1>
@@ -40,9 +51,15 @@
         </div>
       </div>
 </div>
-p {
-    border: 5px solid white;
-}
+        </div>
+      </div>
+</div>
+</div>
+        </div>
+      </div>
+</div>
+.
+
 </style>
 </head>
 <body>	
