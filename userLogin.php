@@ -1,6 +1,6 @@
-<?php include("header.php");
-include('session.php');
-echo 'Welcome, ' .$login_session , '!';          //for testing. prints user's first name
+<?php include("userHeader.php");
+//include('session.php');
+//echo 'Welcome, ' .$login_session , '!';          //for testing. prints user's first name
 ?>
 
 <html>
@@ -12,7 +12,7 @@ echo 'Welcome, ' .$login_session , '!';          //for testing. prints user's fi
 		
 		<div style="width: 700px; margin: 50px auto 0 auto;">
 <div id = "applyNow">
-<h2><p id="centerHeader"><font color= "black"> <a href = "logout.php">Sign Out</a></p></h2> 
+<!-- <h2><p id="centerHeader"><font color= "black"> <a href = "logout.php">Sign Out</a></p></h2> -->
 <h2><p id="centerHeader"><font color= "black"> Welcome Home </h2> </p>
 	<div class="search-groups">
 	</div>
