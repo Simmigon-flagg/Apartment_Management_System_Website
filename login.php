@@ -1,5 +1,6 @@
 <?php include_once("header.php");?>
 
+
 <?php
 
 
@@ -39,12 +40,11 @@
 <title>My First Website</title>
 	<meta name="author" content="your name" />
 	<meta name="description" content="" />
-		<link rel="stylesheet" href="styles/style.css" type="text/css" />
+		<link rel="stylesheet" href="styles/style.css" type="text/css" />	
 		
-		<div id = "applyNow">
-		
-<h1><p id="centerHeader">Resident Login</p></h1>
-<div id="main">
+	<h3 id="centerHeader" >Resident Login</h3>
+<div style="width: 200px; margin: 100px auto 0 auto;">
+	<div id="main">
 
 <form action="" method="POST" role="form">
   <div class="form-group">
@@ -63,8 +63,10 @@
     </div> -->
   <button type="submit" name="submit" class="btn btn-default">Submit</button>
   </div>
+  </div>
+  </div>
 </form>
-
+</div>
 
 <?php
 /*
