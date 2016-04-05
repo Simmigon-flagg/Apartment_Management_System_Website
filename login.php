@@ -5,7 +5,7 @@
 
 
 
-   include("data/dbConnect.php");
+   include_once("data/dbConnect.php");
    session_start();
    
    if(isset($_POST['submit'])) {
