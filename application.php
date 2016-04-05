@@ -6,7 +6,7 @@
 		<link rel="stylesheet" href="styles/style.css" type="text/css" />
 		
 <h3 id="centerHeader" >Application</h3>
-<div style="width: 200px; margin: 100px auto 0 auto;">
+<div style="width: 600px; margin: 40px auto 0 auto;">
 <form role="form" method="POST" action="confirmationPage.php">
   <div class="form-group">
     <label for="firstName">First Name:</label>
