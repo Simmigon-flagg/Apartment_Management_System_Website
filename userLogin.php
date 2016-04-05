@@ -24,7 +24,7 @@
       <div class="col-sm-4">
         <div class="thumbnail"
 		 <a class="btn"><strong>Rent</strong></a><br>
- <img src = "blue_button.jpg" alt="Pay Rent" width="100" height="100">
+ <img src = "Images/blue_button.jpg" alt="Pay Rent" width="100" height="100">
 <p><a class="btn" href="paySystem.php"> <button class="btn">Pay System</button> </a></p>
 <p><a class="btn" href="vpBillHistory.php"> <button class="btn">View/Print Bill History</button> </a></p>
 </div>	
@@ -34,7 +34,7 @@
       <div class="col-sm-4">
         <div class="thumbnail"
  <a class="btn"><strong>Utility</strong></a><br>
- <img src = "blue_button.jpg" alt="Paris" width="100" height="100">
+ <img src = "Images/blue_button.jpg" alt="Paris" width="100" height="100">
 <p><a class="btn" href="payThirdParty.php"> <button class="btn">Pay Third party</button> </a></p>
 <p><a class="btn" href="addNewUtility.php"> <button class="btn">Add New Utility</button></a></p>
 </div>
@@ -44,7 +44,7 @@
       <div class="col-sm-4">
         <div class="thumbnail"
  <a class="btn"><strong>Maintenance</strong></a><br>
- <img src = "blue_button.jpg" alt="Maintenance Request " width="100" height="100">
+ <img src = "Images/blue_button.jpg" alt="Maintenance Request " width="100" height="100">
 <p><a class="btn" href="addNewRequest.php"> <button class="btn">Add New Request</button> </a></p>
 <p><a class="btn" href="viewMaintenanceHistory.php"> <button class="btn">View Maintenance History</button></a></p>
 </div>
