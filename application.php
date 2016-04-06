@@ -14,6 +14,9 @@ if(isset($_POST['submit']))
  $lastname = mysqli_real_escape_string($conn,$_POST['lastName']);
  $email = mysqli_real_escape_string($conn,$_POST['email']);
  $pass = mysqli_real_escape_string($conn,$_POST['pwd']);
+ $passConfirm = mysqli_real_escape_string($conn,$_POST['pwdConfirm']);
+ 
+ if($pass == $passConfirm){
  
  if(mysqli_query($conn,"INSERT INTO user(firstName, lastName, userName, pass) VALUES('$firstname','$lastname','$email','$pass')"))
  {
@@ -25,6 +28,10 @@ if(isset($_POST['submit']))
   ?>
         <script>alert('Error while registering you...');</script>
         <?php
+ }
+}
+ else {
+	         ?>Passwords don't match<?php
  }
 }
 ?>
