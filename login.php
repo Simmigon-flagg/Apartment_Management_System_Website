@@ -43,7 +43,7 @@
 <body background= no-repeat> 	
 		
 	<h3 id="centerHeader" >Resident Login</h3>
-<div style="width: 300px; margin: 50px auto 0 auto;">
+<div style="width: 200px; margin: 100px auto 0 auto;">
 	<div id="main">
 
 <form action="" method="POST" role="form">
