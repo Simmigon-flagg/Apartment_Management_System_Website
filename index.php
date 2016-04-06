@@ -76,18 +76,10 @@
 	<meta name="author" content="your name" />
 	<meta name="description" content="" />
 		<link rel="stylesheet" href="styles/style.css" type="text/css" />
-
+<div style="width: 600px; margin: 50px auto 0 auto;">
 	<div id = "applyNow">
    <body background= "Images/cityview3.jpg" >
-     <div id="profile_leftPanel">
-	   <div id="profile_rightPanel">
-    <div id="profile_rightPanel_center">
-      <div id="recentStatus">
-	  
-	       <div id="profile_rightPanel">
-	   <div id="profile_leftPanel">
-    <div id="profile_leftPanel_center">
-      <div id="idkStatus">
+     
 	  
 	<br>
 	<br>
@@ -101,14 +93,14 @@
 	 <div class="row text-center">
       <div class="col-sm-4">
         <div class="thumbnail">
-          <img src = "Images/Downtown 3.jpg" alt="Paris" width="400" height="300">
+          <img src = "Images/Downtown 3.jpg" alt="Paris" width="500" height="400">
           <a class="btn" href="index.php"> <button class="btn">Luxe Downtown</button> </a>
           <p><strong>Be at the center of it all, steps away from amazing attractions and entertainment</strong></p>
         </div>
       </div>
       <div class="col-sm-4">
         <div class="thumbnail">
-          <img src="Images/Midtown.jpg" alt="New York" width="400" height="300">
+          <img src="Images/Midtown.jpg" alt="New York" width="500" height="400">
          <a class="btn" href="index.php"> <button class="btn">Luxe Midtown</button> </a>
          <p><strong>Where historical significance meets a mouth- watering food scene</strong></p>
 		 <!-- <a class="navbar-brand" href="index.php">Apartment Rental</a> -->
@@ -116,7 +108,7 @@
       </div>
       <div class="col-sm-4">
         <div class="thumbnail">
-          <img src="Images/Buckhead 2.jpg" alt="San Francisco" width="400" height="300">
+          <img src="Images/Buckhead 2.jpg" alt="San Francisco" width="500" height="400">
           <a class="btn" href="index.php"> <button class="btn">Luxe Buckhead</button> </a>
           <p><strong>A community of elegance and business, home to families and professionals alike</strong></p>
         </div>
@@ -124,11 +116,7 @@
 </div>
         </div>
       </div>
-</div>
-</div>
-        </div>
-      </div>
-</div>
+
 .
 
 </style>

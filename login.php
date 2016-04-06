@@ -1,11 +1,8 @@
 <?php include_once("header.php");?>
 
-
 <?php
 
-
-
-   include("data/dbConnect.php");
+   include_once("data/dbConnect.php");
    session_start();
    
    if(isset($_POST['submit'])) {
@@ -40,7 +37,10 @@
 <title>My First Website</title>
 	<meta name="author" content="your name" />
 	<meta name="description" content="" />
-		<link rel="stylesheet" href="styles/style.css" type="text/css" />	
+		<link rel="stylesheet" href="styles/style.css" type="text/css" />
+		
+<body background= "">
+<body background= no-repeat> 	
 		
 	<h3 id="centerHeader" >Resident Login</h3>
 <div style="width: 300px; margin: 50px auto 0 auto;">
@@ -86,5 +86,5 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 */
 ?>
 
-<?php include_once("footer.php");?>
+<?php //include_once("footer.php");?>
 

@@ -43,9 +43,10 @@
   </style>
   
 </head>
-<body>
+</body>
+
 <?php
-//include('session.php');
+include_once('session.php');
 ?>
 
 <nav class="navbar navbar-inverse">
@@ -56,7 +57,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                   
       </button>
-      <a class="navbar-brand" href="index.php">Apartment Rental</a>
+      <a class="navbar-brand" href="userLogin.php">Apartment Rental</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
@@ -64,12 +65,9 @@
       </ul>
       <ul class="nav navbar-nav navbar-right">
 	 
-        <li><a href="login.php"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-		 <li><a href="application.php"><span class="glyphicon glyphicon-log-in"></span> Apply Now</a></li>
+        <li><a href="userLogin.php"> Welcome back, <?php echo $login_firstName;  ?>!</a></li>
+		 <li><a href="logout.php"><span class="glyphicon glyphicon-log-in"></span> Log out</a></li>
       </ul>
     </div>
   </div>
 </nav>
-
-
-
