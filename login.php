@@ -40,7 +40,10 @@
 <title>My First Website</title>
 	<meta name="author" content="your name" />
 	<meta name="description" content="" />
-		<link rel="stylesheet" href="styles/style.css" type="text/css" />	
+		<link rel="stylesheet" href="styles/style.css" type="text/css" />
+		
+<body background= "Images/cityview2.jpg">
+<body background= no-repeat> 	
 		
 	<h3 id="centerHeader" >Resident Login</h3>
 <div style="width: 300px; margin: 50px auto 0 auto;">
