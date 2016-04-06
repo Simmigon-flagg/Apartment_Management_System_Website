@@ -20,24 +20,24 @@
 	<br>
 	<br/><br/><br/>
 	 <div class="row text-center">
-      <div class="col-sm-3">
+      <div class="col-sm-4">
         <div class="thumbnail">
-          <img src = "Images/Downtown 3.jpg" alt="Paris" width="300" height="200">
+          <img src = "Images/Downtown 3.jpg" alt="Paris" width="500" height="400">
           <a class="btn" href="index.php"> <button class="btn">Luxe Downtown</button> </a>
           <p><strong>Be at the center of it all, steps away from amazing attractions and entertainment</strong></p>
         </div>
       </div>
-      <div class="col-sm-3">
+      <div class="col-sm-4">
         <div class="thumbnail">
-          <img src="Images/Midtown.jpg" alt="New York" width="300" height="200">
+          <img src="Images/Midtown.jpg" alt="New York" width="500" height="400">
          <a class="btn" href="index.php"> <button class="btn">Luxe Midtown</button> </a>
          <p><strong>Where historical significance meets a mouth- watering food scene</strong></p>
 		 <!-- <a class="navbar-brand" href="index.php">Apartment Rental</a> -->
         </div>
       </div>
-      <div class="col-sm-3">
+      <div class="col-sm-4">
         <div class="thumbnail">
-          <img src="Images/Buckhead 2.jpg" alt="San Francisco" width="300" height="200">
+          <img src="Images/Buckhead 2.jpg" alt="San Francisco" width="500" height="400">
           <a class="btn" href="index.php"> <button class="btn">Luxe Buckhead</button> </a>
           <p><strong>A community of elegance and business, home to families and professionals alike</strong></p>
         </div>
