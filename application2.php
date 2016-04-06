@@ -66,6 +66,12 @@ if(isset($_POST['submit']))
     <label for="phone">Phone Number:</label>
     <input type="phone" class="form-control" name="phone">
   </div>
+       <div class="form-group">
+    <label for="bday">Birthday:</label>
+    <input type="date" class="form-control" name="bday">
+  </div>
+  
+  
  <!-- <div class="form-group">
     <label for="email">Email address:</label>
     <input type="email" class="form-control" name="email">
