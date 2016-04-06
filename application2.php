@@ -17,7 +17,7 @@ if(isset($_POST['submit']))
  
  if(mysqli_query($conn,"INSERT INTO user(firstName, lastName, userName, pass) VALUES('$firstname','$lastname','$email','$pass')"))
  {
-			 header("location:application2.php");
+			 header("location:confirmationPage.php");
 
  }
  else
@@ -38,15 +38,15 @@ if(isset($_POST['submit']))
 <h3 id="centerHeader" >Application</h3>
 <div style="width: 600px; margin: 40px auto 0 auto;">
 <form role="form" method="POST" action="">
-  <div class="form-group">
+  <!-- <div class="form-group">
     <label for="firstName">First Name:</label>
     <input type="firstName" class="form-control" name="firstName">
   </div>
   <div class="form-group">
     <label for="lastName">Last Name:</label>
     <input type="lastName" class="form-control" name="lastName">
-  </div>
- <!-- <div class="form-group">
+  </div> -->
+  <div class="form-group">
     <label for="address">Current Address:</label>
     <input type="address" class="form-control" name="address">
    </div>
@@ -55,18 +55,18 @@ if(isset($_POST['submit']))
     <input type="city" class="form-control" name="city">
    </div>
      <div class="form-group">
-    <label for="state">State:</label>
+    <label for="state">State/Province/Region:</label>
     <input type="state" class="form-control" name="state">
    </div>
      <div class="form-group">
-    <label for="zip">Zip:</label>
+    <label for="zip">Zip/Postal Code:</label>
     <input type="zip" class="form-control" name="zip">
    </div>
  <div class="form-group">
     <label for="phone">Phone Number:</label>
     <input type="phone" class="form-control" name="phone">
-  </div> -->
-  <div class="form-group">
+  </div>
+ <!-- <div class="form-group">
     <label for="email">Email address:</label>
     <input type="email" class="form-control" name="email">
   </div>
@@ -77,8 +77,8 @@ if(isset($_POST['submit']))
     <div class="form-group">
     <label for="pwdConfirm">Re-Enter Password:</label>
     <input type="password" class="form-control" name="pwdConfirm">
-  </div>
-  <button type="submit" class="btn btn-default" name="submit">Next</button>
+  </div> -->
+  <button type="submit" class="btn btn-default" name="submit">Submit</button>
 </form>
 </div>
 <?php include_once("footer.php");?>
