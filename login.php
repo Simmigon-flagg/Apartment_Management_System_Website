@@ -68,23 +68,5 @@
 </form>
 </div>
 
-<?php
-/*
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-  if (empty($_POST["email"])) {
-    $nameErr = "Email is required";
-  } else {
-    $name = test_input($_POST["email"]);
-  }
-
-  if (empty($_POST["password"])) {
-    $emailErr = "Password is required";
-  } else {
-    $email = test_input($_POST["password"]);
-  }
-}
-*/
-?>
-
 <?php //include_once("footer.php");?>
 
