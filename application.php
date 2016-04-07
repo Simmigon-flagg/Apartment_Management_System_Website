@@ -7,6 +7,7 @@ if(isset($_SESSION['login_user'])!="")
  header("Location: userLogin.php");
 }
 include_once("data/dbConnect.php");
+$error = "";
 
 if(isset($_POST['submit']))
 {
@@ -29,9 +30,9 @@ if(isset($_POST['submit']))
         <script>alert('Error while registering you...');</script>
         <?php
  }
-}
- else {
-	         ?>Passwords don't match<?php
+}else {
+	         /*?><font color = "red">Passwords don't match</font><?php*/
+			 $error = "Passwords don't match";
  }
 }
 ?>
@@ -44,12 +45,13 @@ if(isset($_POST['submit']))
 		
 <h3 id="centerHeader" >Application</h3>
 
+<center><b><font color = "red"><?php echo $error; ?></font></b></center>
+
 <div style="width: 600px; margin: 40px auto 0 auto;">
 <form role="form" method="POST" action="">
   <div class="form-group">
     <label for="firstName">First Name:</label>
     <input type="firstName" class="form-control" name="firstName">
-  </div>
   <div class="form-group">
     <label for="lastName">Last Name:</label>
     <input type="lastName" class="form-control" name="lastName">
