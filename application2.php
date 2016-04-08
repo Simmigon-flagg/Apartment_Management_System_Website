@@ -63,14 +63,14 @@ if(isset($_POST['submit']))
     <input type="zip" class="form-control" name="zip">
    </div>
  <div class="form-group">
-    <label for="phone">Phone Number:</label>
+   <label for="phone">Phone Number: </label>
     <input type="phone" class="form-control" name="phone">
   </div>
+  
        <div class="form-group">
     <label for="bday">Birthday:</label>
     <input type="date" class="form-control" name="bday">
   </div>
-  
   
  <!-- <div class="form-group">
     <label for="email">Email address:</label>
@@ -84,6 +84,15 @@ if(isset($_POST['submit']))
     <label for="pwdConfirm">Re-Enter Password:</label>
     <input type="password" class="form-control" name="pwdConfirm">
   </div> -->
+  <div class="my-container">
+   <label for="phone">Social security
+    <div>
+    <input type="text" name="ssn-1">-
+    <input type="text" name="ssn-2">-
+    <input type="text" name="ssn-3">
+</div>
+</div>
+  
   <button type="submit" class="btn btn-default" name="submit">Submit</button>
 </form>
 </div>
