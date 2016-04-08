@@ -1,4 +1,4 @@
-<?php include("header.php");?>
+<?php include("userHeader.php");?>
 
 <div style="width: 600px; margin: 50px auto 0 auto;">
 	<h1>View / Print your Bill History</h1>

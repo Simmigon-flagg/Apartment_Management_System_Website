@@ -1,4 +1,4 @@
-<?php include("header.php");?>
+<?php include("userHeader.php");?>
 
 <html>
 <head>
