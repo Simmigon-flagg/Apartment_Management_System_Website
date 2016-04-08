@@ -71,27 +71,42 @@ if(isset($_POST['submit']))
     <label for="bday">Birthday:</label>
     <input type="date" class="form-control" name="bday">
   </div>
-  
- <!-- <div class="form-group">
-    <label for="email">Email address:</label>
-    <input type="email" class="form-control" name="email">
-  </div>
+ 
   <div class="form-group">
-    <label for="pwd">Password:</label>
-    <input type="password" class="form-control" name="pwd">
-  </div>
-    <div class="form-group">
-    <label for="pwdConfirm">Re-Enter Password:</label>
-    <input type="password" class="form-control" name="pwdConfirm">
-  </div> -->
-  <div class="my-container">
-   <label for="phone">Social security
+   <label for="ssn">Social security </label>
     <div>
     <input type="text" name="ssn-1">-
     <input type="text" name="ssn-2">-
     <input type="text" name="ssn-3">
 </div>
 </div>
+
+       <div class="form-group">
+    <label for="bday">Move in day</label>
+    <input type="date" class="form-control" name="bday">
+  </div>
+  
+  <div class="form-group">
+ <label for="bday">Type of apartment</label>  
+ </div>
+ <div "form-control">
+ <label for="bday">Number of bedroom</label>  
+  <select>
+  <option value="volvo">1</option>
+  <option value="saab">2</option>
+  <option value="opel">3</option>
+  </select>
+
+ <label for="bday">Number of Bathrooms</label>  
+  <select>
+  <option value="volvo">1</option>
+  <option value="saab">2</option>
+  <option value="opel">3</option>
+</select>
+</div>
+  
+</body>
+</html>
   
   <button type="submit" class="btn btn-default" name="submit">Submit</button>
 </form>
