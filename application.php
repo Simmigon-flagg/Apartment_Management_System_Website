@@ -7,33 +7,45 @@ if(isset($_SESSION['login_user'])!="")
  header("Location: userLogin.php");
 }
 include_once("data/dbConnect.php");
-$error = "";
+//$firstNameErr = $lastNameErr = $emailErr = $pwdErr = $pwdConfirmErr "";
+$invalid = $passwordErr = $existing = "";
 
 if(isset($_POST['submit']))
 {
- $firstname = mysqli_real_escape_string($conn,$_POST['firstName']);
- $lastname = mysqli_real_escape_string($conn,$_POST['lastName']);
- $email = mysqli_real_escape_string($conn,$_POST['email']);
- $pass = mysqli_real_escape_string($conn,$_POST['pwd']);
- $passConfirm = mysqli_real_escape_string($conn,$_POST['pwdConfirm']);
- 
- if($pass == $passConfirm){
- 
- if(mysqli_query($conn,"INSERT INTO user(firstName, lastName, userName, pass) VALUES('$firstname','$lastname','$email','$pass')"))
- {
-			 header("location:application2.php");
+	
+	if(empty($_POST['firstName']) || empty($_POST['lastName']) || empty($_POST['email']) || empty($_POST['pwd']) || empty($_POST['pwdConfirm'])){
+		$invalid = "All fields are required";
+	}else{
+		$firstname = mysqli_real_escape_string($conn,$_POST['firstName']);
+		$lastname = mysqli_real_escape_string($conn,$_POST['lastName']);
+		$email = mysqli_real_escape_string($conn,$_POST['email']);
+		$pass = mysqli_real_escape_string($conn,$_POST['pwd']);
+		$passConfirm = mysqli_real_escape_string($conn,$_POST['pwdConfirm']);
+		
+		$check = mysqli_query($conn,"SELECT userName FROM user WHERE userName = '$email';");	//checks for already existing email in table
+		if (mysqli_num_rows($check) == 0) {
 
- }
- else
- {
-  ?>
-        <script>alert('Error while registering you...');</script>
-        <?php
- }
-}else {
-	         /*?><font color = "red">Passwords don't match</font><?php*/
-			 $error = "Passwords don't match";
- }
+			 if($pass == $passConfirm){
+			 
+				 if(mysqli_query($conn,"INSERT INTO user(firstName, lastName, userName, pass) VALUES('$firstname','$lastname','$email','$pass')"))
+				 {
+						$_SESSION['login_user'] = $email;
+						header("location:application2.php");
+
+				 }
+				 else
+				 {
+				  ?>
+						<script>alert('Error while registering you...');</script>
+						<?php
+				 }
+			}else {
+					$passwordErr = "Passwords don't match";
+			 }
+		}else{
+			$existing = "This email address is already registered";
+		}
+	}
 }
 ?>
 
@@ -44,8 +56,11 @@ if(isset($_POST['submit']))
 		<link rel="stylesheet" href="styles/style.css" type="text/css" />
 		
 <h3 id="centerHeader" >Application</h3>
+<h5 id="centerHeader">page 1 of 2</h5>
 
-<center><b><font color = "red"><?php echo $error; ?></font></b></center>
+<center><b><font color = "red"><?php echo $invalid; ?></font></b></center>
+<center><b><font color = "red"><?php echo $passwordErr; ?></font></b></center>
+<center><b><font color = "red"><?php echo $existing; ?></font></b></center>
 
 <div style="width: 600px; margin: 40px auto 0 auto;">
 <form role="form" method="POST" action="">

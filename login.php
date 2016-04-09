@@ -4,6 +4,7 @@
 
    include_once("data/dbConnect.php");
    session_start();
+   $invalid = "";
    
    if(isset($_POST['submit'])) {
       // username and password sent from form 
@@ -24,13 +25,12 @@
          //session_register("myusername");        this function has been REMOVED as of PHP 5.4.0
          $_SESSION['login_user'] = $myusername;
 		 
-         $hour = time() + 3600;
-		 setcookie('ID_my_site', $_POST['username'], $hour);
+         //$hour = time() + 3600;
+		 //setcookie('ID_my_site', $_POST['username'], $hour);                      //remember me
 		 
          header("location:userLogin.php");
       }else {
-         $error = "Your Login Name or Password is invalid";
-		 echo $error;
+         $invalid = "Your Login Name or Password is invalid";
       }
    }
  
@@ -46,8 +46,10 @@
 <body background= no-repeat> 	
 		
 	<h3 id="centerHeader" >Resident Login</h3>
+	<b><center><font color="red"><?php echo $invalid ?></font></center></b>
 <div style="width: 200px; margin: 100px auto 0 auto;">
 	<div id="main">
+	
 
 <form action="" method="POST" role="form">
   <div class="form-group">
