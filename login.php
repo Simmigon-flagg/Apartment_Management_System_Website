@@ -23,7 +23,10 @@
       if($count == 1) {
          //session_register("myusername");        this function has been REMOVED as of PHP 5.4.0
          $_SESSION['login_user'] = $myusername;
-         
+		 
+         $hour = time() + 3600;
+		 setcookie('ID_my_site', $_POST['username'], $hour);
+		 
          header("location:userLogin.php");
       }else {
          $error = "Your Login Name or Password is invalid";
@@ -57,10 +60,10 @@
 
     <label for="pwd">Password:</label>
     <input type="password" class="form-control" name="pwd">
-  </div> <!--
+  </div>
   <div class="checkbox">
-      <label><input type="checkbox"> Remember me</label>
-    </div> -->
+      <label><input type="checkbox" name="remember" value="1"> Remember me</label>
+    </div>
   <button type="submit" name="submit" class="btn btn-default">Submit</button>
   </div>
   </div>

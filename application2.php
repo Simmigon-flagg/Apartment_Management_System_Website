@@ -72,43 +72,49 @@ if(isset($_POST['submit']))
     <input type="date" class="form-control" name="bday">
   </div>
  
-  <div class="form-group">
-   <label for="ssn">Social security </label>
-    <div>
-    <input type="text" name="ssn-1">-
-    <input type="text" name="ssn-2">-
-    <input type="text" name="ssn-3">
+  <div class="form-inline">
+   <label for="ssn">Social Security Number: </label><br>
+    <div class="form-group">
+    <input type="ssn" class="form-control" id="ssn1" size="2" maxlength="3"> -
+	<input type="text" class="form-control" id="ssn2" size="2" maxlength="2"> -
+	<input type="text" class="form-control" id="ssn3" size="2" maxlength="4">
+	
 </div>
 </div>
 
        <div class="form-group">
-    <label for="bday">Move in day</label>
+    <label for="bday">Move in day: </label>
     <input type="date" class="form-control" name="bday">
   </div>
   
   <div class="form-group">
- <label for="bday">Type of apartment</label>  
+ <label for="bday">Apartment Location: </label>  
  </div>
- <div "form-control">
- <label for="bday">Number of bedroom</label>  
-  <select>
+ <div class="form-group">
+ <label for="bedrooms">Number of bedrooms: </label>  
+  <select class="form-control" id="bedrooms">
   <option value="volvo">1</option>
   <option value="saab">2</option>
   <option value="opel">3</option>
+  <option value="vauxhall">4</option>
+  </select> 
+  </div>
+<div class="form-group">
+ <label for="bathrooms">Number of Bathrooms: </label>  
+  <select class="form-control" id="bedrooms">
+  <option value="volvo">1</option>
+  <option value="saab">2</option>
+  <option value="opel">3</option>
+  <option value="vauxhall">4</option>
   </select>
-
- <label for="bday">Number of Bathrooms</label>  
-  <select>
-  <option value="volvo">1</option>
-  <option value="saab">2</option>
-  <option value="opel">3</option>
-</select>
+</div>
+  <button type="submit" class="btn btn-default" name="submit">Submit</button>
 </div>
   
 </body>
 </html>
   
-  <button type="submit" class="btn btn-default" name="submit">Submit</button>
+
 </form>
 </div>
 <?php include_once("footer.php");?>

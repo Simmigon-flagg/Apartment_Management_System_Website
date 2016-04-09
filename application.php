@@ -51,7 +51,7 @@ if(isset($_POST['submit']))
 <form role="form" method="POST" action="">
   <div class="form-group">
     <label for="firstName">First Name:</label>
-    <input type="firstName" class="form-control" name="firstName">
+    <input type="firstName" class="form-control" name="firstName"><br>
   <div class="form-group">
     <label for="lastName">Last Name:</label>
     <input type="lastName" class="form-control" name="lastName">
