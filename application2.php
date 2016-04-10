@@ -1,6 +1,6 @@
 <?php  include_once("header.php");?>
 <?php
-	var_dump($_REQUEST); 			//remove
+	//var_dump($_REQUEST); 			//remove
 	
 include_once('data/dbConnect.php');
 session_start();
@@ -15,11 +15,13 @@ $row = mysqli_fetch_array($ses_sql,MYSQLI_ASSOC);
    
 $login_session = $row['iduser'];
 
+//session_destroy();		//testing
+
 /*if(!isset($_SESSION['login_user'])){
 	header("Location: login.php");
 }*/
 
-echo $login_session;				//testing - remove
+//echo $login_session;				//testing - remove
 
 if(isset($_POST['submit'])){
 	if(empty($_POST['address']) || empty($_POST['city']) || empty($_POST['state']) || empty($_POST['zip']) || empty($_POST['phone']) /*|| empty($_POST['bday']) */|| empty($_POST['ssn1']) || empty($_POST['ssn2']) || empty($_POST['ssn3'])){
@@ -45,6 +47,7 @@ if(isset($_POST['submit'])){
 		 }
 	}
 }
+//session_destroy();		//testing
 ?>
 
 <html>

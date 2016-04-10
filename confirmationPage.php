@@ -12,7 +12,9 @@
 ?>
 <?php
 	//echo 'Welcome, ' .$login_session , '!';          //for testing. prints user's first name
+	session_start();
+	session_destroy();
 ?>
-	<br>Check back in 3 to 4 business days. Thanks
+	<br>You are now registered and have applied for an apartment! You will receive a confirmation email after we review your application.
 <?php include("footer.php");?>
 

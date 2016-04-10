@@ -2,10 +2,10 @@
 <?php
 	var_dump($_REQUEST); 				//remove
 session_start();
-if(isset($_SESSION['login_user'])!="")
+/*if(isset($_SESSION['login_user'])!="")		//if user is logged in, they are redirected to userLogin.php
 {
  header("Location: userLogin.php");
-}
+}*/
 include_once("data/dbConnect.php");
 //$firstNameErr = $lastNameErr = $emailErr = $pwdErr = $pwdConfirmErr "";
 $invalid = $passwordErr = $existing = "";
