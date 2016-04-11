@@ -10,7 +10,7 @@
 	<div id = "applyNow">
 	<br>
 	<br>
-	<h1><p id="centerHeader"><font color= "black"> The Luxe Downtown Layout of the apartment</font></p></h1>	
+	<h1><p id="centerHeader"><font color= "black"> The Luxe Buckhead Layout of the apartment</font></p></h1>	
 	</div>
  <br />
  

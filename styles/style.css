@@ -75,5 +75,23 @@
     border-right-style:outset;
 }
 
+#content{
+         width: 700px;
+         display: block;
+         height: auto;
+     }
+     #content > img{
+        float: left; width: 200px;
+        height: 200px;
+        margin: 5px 8px;
+     }
 
+#container {
+width: 500px;
+height: 300px;
+overflow: hidden;
+border: 3px double #000;
+white-space: nowrap;
+}
 
+#container img {display: inline-block; margin: 0 100px;}
