@@ -66,7 +66,7 @@
     <input type="password" class="form-control" name="pwd">
   </div>
   <div class="checkbox">
-      <label><input type="checkbox" name="remember" value="1"> Remember me</label>
+      <label><input type="checkbox" name="remember" value="1" checked> Remember me</label>
     </div>
   <button type="submit" name="submit" class="btn btn-default">Submit</button>
   </div>
