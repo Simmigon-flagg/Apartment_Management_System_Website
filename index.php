@@ -32,7 +32,7 @@
       <div class="col-sm-4">
         <div class="thumbnail">
           <img src = "Images/Downtown 3.jpg" alt="Paris" width="500" height="400">
-          <a class="btn" href="index.php"> <button class="btn">Luxe Downtown</button> </a>
+          <a class="btn" href="luxeDowntown.php"> <button class="btn">Luxe Downtown</button> </a>
           <p><strong>Be at the center of it all, steps away from amazing attractions and entertainment</strong></p>
         </div>
       </div>
