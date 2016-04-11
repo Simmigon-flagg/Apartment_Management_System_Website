@@ -9,9 +9,16 @@
 		<link rel="stylesheet" href="styles/style.css" type="text/css" />
 <div style="width: 600px; margin: 50px auto 0 auto;">
 	<div id = "applyNow">
-   <body background= "Images/cityview3.jpg" >
-     
-	  
+   <body> <!--background= "Images/cityview3.jpg"--> 
+   <style>
+   body{
+     background: url(Images/cityview3.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+   }
+   </style>
 	<br>
 	<br>
 	<h1><p id="centerHeader"><font color= "white"> The Luxe Difference</font></p></h1>
