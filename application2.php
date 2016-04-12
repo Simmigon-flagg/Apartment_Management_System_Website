@@ -104,7 +104,19 @@ if(isset($_POST['submit'])){
 	
 </div>
 </div>
-
+<div class="form-group">
+   <label for="tittle">Employer </label>
+    <input type="tittle" class="form-control" name="tittle">
+  </div>
+<div class="form-group">
+   <label for="job">Job tittle </label>
+    <input type="job" class="form-control" name="job">
+  </div>
+  
+  <div class="form-group">
+   <label for="income">Monthly gross income </label>
+    <input type="income" class="form-control" name="income">
+  </div>
        <div class="form-group">
     <label for="bday">Move in day: </label>
     <input type="date" class="form-control" name="bday">
