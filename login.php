@@ -67,9 +67,13 @@
   </div>
   <div class="checkbox">
       <label><input type="checkbox" name="remember" value="1" checked> Remember me</label>
-    </div>
+     <br>
+	 <a  href="passwordReset.php">Forgot password</a>
+	</div>
   <button type="submit" name="submit" class="btn btn-default">Submit</button>
+
   </div>
+
   </div>
   </div>
 </form>
