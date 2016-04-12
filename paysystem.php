@@ -15,8 +15,7 @@
 <input type="text">
 </form>
 <br>
-<h4>Proceed to complete the payment<h4>
-
+<a class="btn" href="payInformation.php"> <button class="btn"><h4>Proceed to complete the payment<h4></button> </a>
 
 
 <?php include("footer.php");?>
