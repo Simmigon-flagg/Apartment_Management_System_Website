@@ -95,3 +95,7 @@ white-space: nowrap;
 }
 
 #container img {display: inline-block; margin: 0 100px;}
+
+span {
+  content: "\2714";
+}

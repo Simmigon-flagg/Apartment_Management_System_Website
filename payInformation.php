@@ -1,52 +1,64 @@
 <!DOCTYPE html>
 <?php include("userHeader.php"); ?>
-<div style="width: 600px; margin: 50px auto 0 auto;">
-<table>
-<tr>
-<td>Cardholder's First Name:</td>
-<td><input type="text" name="First_Name"></td>
-</tr><tr>
-<td>Cardholder's Last Name:</td>
-<td><input type="text" name="Last_Name"></td>
-</tr><tr>
-<td>Credit Card Number:</td>
-<td><input type="text" name="Card_Num"></td>
-</tr><tr>
-</tr><tr>
-<td>Exp. date (mmyy):</td>
-<td><input type="text" name="Exp_Date" maxlength="4"></td>
-</tr><tr>
+<html>
+<head>
+	<meta name="author" content="your name" />
+	<meta name="description" content="" />
+		<link rel="stylesheet" href="styles/style.css" type="text/css" />
 
-</tr><tr>
-<td>Card Number:</td>
-<td><input type="text" name="Card_Code"></td>
-</tr><tr>
-<br>
-<br>
+<div style="width: 600px; margin: 40px auto 0 auto;">
+
+  <div class="form-group">
+  <h3 id="centerHeader" >Please enter your card information</h3> <br>
+    <label for="firstName">Cardholder's First Name:</label>
+    <input type="firstName" class="form-control" name="firstName"><br>
+  <div class="form-group">
+    <label for="lastName">Cardholder's Last Name:</label>
+    <input type="lastName" class="form-control" name="lastName">
+  </div>
+<div class="form-group">
+ <label for="bathrooms">Type of card:</label>  
+  <select class="form-control" id="bedrooms">
+  <option value="volvo">Visa</option>
+  <option value="saab">American express</option>
+  <option value="opel">Discover</option>
+  <option value="vauxhall">Master</option>
+  </select>
+</div>
+
 <td colspan="2" align="center"><small>
-Enter the billing address:
-</small></td>
-</tr><tr>
-<td>Street Address:</td>
-<td><input type="text" name="Address"></td>
-</tr><tr>
-<td>City:</td>
-<td><input type="text" name="City"></td>
-</tr><tr>
-<td>State/Province:</td>
-<td><input type="text" name="State"></td>
-</tr><tr>
-<td>Zip/Postal Code:</td>
-<td><input type="text" name="Zip"></td>
-</tr><tr>
-<td>Country:</td>
-<td><input type="text" name="Country"></td>
-</tr><tr>
+<h3 id="centerHeader" >Enter the billing address:</h3>
+
+  <div class="form-group">
+    <label for="lastName">Street Address:</label>
+    <input type="lastName" class="form-control" name="lastName">
+  </div>
+    <div class="form-group">
+    <label for="lastName">City:</label>
+    <input type="lastName" class="form-control" name="lastName">
+  </div>
+  
+      <div class="form-group">
+    <label for="lastName">State/Province:</label>
+    <input type="lastName" class="form-control" name="lastName">
+  </div>
+  
+        <div class="form-group">
+    <label for="lastName">Zip/Postal Code:</label>
+    <input type="lastName" class="form-control" name="lastName">
+  </div>
+  
+          <div class="form-group">
+    <label for="lastName">Country:</label>
+    <input type="lastName" class="form-control" name="lastName">
+  </div>
+
+
 <td colspan="2" align="center">
-<input type="submit" value="Submit payment">
+<a class="btn" href="afterPayment.php"> 
+<button class="btn">Submit payment </button> </a>
 </td>
 </div>
-</tr>
-</table>
+</div>
 
 <?php include("footer.php"); ?>

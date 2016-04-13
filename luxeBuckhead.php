@@ -9,7 +9,6 @@
 
 <div style="width: 700px; margin: 50px auto 0 auto;">
 	<div id = "applyNow">
-	<br>
 	<h2><p id="centerHeader"><font color= "black"><b>The Luxe Midtown Layout of the apartment</b></font></p></h2>	
 	</div>
 	</div>
