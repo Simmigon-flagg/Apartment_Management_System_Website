@@ -6,34 +6,35 @@
 </script>
 </head>
 <body>  
-<div style="width: 1000px; margin: 50px auto 0 auto;">
+
+<div style="width: 700px; margin: 50px auto 0 auto;">
 	<div id = "applyNow">
 	<br>
-	<br>
-	<h1><p id="centerHeader"><font color= "black"> The Luxe Midtown Layout of the apartment</font></p></h1>	
+	<h2><p id="centerHeader"><font color= "black"><b>The Luxe Midtown Layout of the apartment</b></font></p></h2>	
 	</div>
-	
+	</div>
+	<div style="width: 1000px; margin: 50px auto 0 auto;">
 <div data-role="main" class="ui-content">
     <div class="ui-grid-a">
       <div class="ui-block-a">
-        <h2><p id="centerHeader"><font color= "black">1st Bedroom</p><h2><br>
+      <a href="#" class="ui-btn ui-corner-all ui-shadow">First bedroom</a><br>
         <span><img src= "Images/Downtown 3.jpg" alt="Paris" width="400" height="300"></span>
-		 <h2>2st Bedroom<h2><br>
+		 <a href="#" class="ui-btn ui-corner-all ui-shadow">First bedroom</a><br>
         <span><img src= "Images/Downtown 3.jpg" alt="Paris" width="400" height="300"></span>
-		 <h2>3st Bedroom<h2><br>
+		 <a href="#" class="ui-btn ui-corner-all ui-shadow">First bedroom</a><br>
         <span><img src= "Images/Downtown 3.jpg" alt="Paris" width="400" height="300"></span>
 		</div>
 
       <div class="ui-block-b">
-          <h2>1st Bedroom<h2><br>
+       <a href="#" class="ui-btn ui-corner-all ui-shadow">First bedroom</a><br>
         <span><img src= "Images/Downtown 3.jpg" alt="Paris" width="400" height="300"></span>
-		 <h2>1st Bedroom<h2><br>
+		<a href="#" class="ui-btn ui-corner-all ui-shadow">First bedroom</a><br>
         <span><img src= "Images/Downtown 3.jpg" alt="Paris" width="400" height="300"></span>
-		 <h2>1st Bedroom<h2><br>
+		<a href="#" class="ui-btn ui-corner-all ui-shadow">First bedroom</a><br>
         <span><img src= "Images/Downtown 3.jpg" alt="Paris" width="400" height="300"></span>
       </div>
     </div>
   </div>
-</div> 
+</div>
 
 <?php include("footer.php");?>
