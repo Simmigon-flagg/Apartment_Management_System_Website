@@ -89,12 +89,6 @@ if(isset($_POST['submit'])){
    <label for="phone">Phone Number: </label>
     <input type="phone" class="form-control" name="phone">
   </div>
-  
-       <div class="form-group">
-    <label for="bday">Birthday:</label>
-    <input type="date" class="form-control" name="bday">
-  </div>
- 
   <div class="form-inline">
    <label for="ssn">Social Security Number: </label><br>
     <div class="form-group">
@@ -105,11 +99,11 @@ if(isset($_POST['submit'])){
 </div>
 </div>
 <div class="form-group">
-   <label for="tittle">Employer </label>
-    <input type="tittle" class="form-control" name="tittle">
+   <label for="title">Employer </label>
+    <input type="title" class="form-control" name="title">
   </div>
 <div class="form-group">
-   <label for="job">Job tittle </label>
+   <label for="job">Job title </label>
     <input type="job" class="form-control" name="job">
   </div>
   

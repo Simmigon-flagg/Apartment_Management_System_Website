@@ -13,12 +13,13 @@ $invalid = $passwordErr = $existing = "";
 if(isset($_POST['submit']))
 {
 	
-	if(empty($_POST['firstName']) || empty($_POST['lastName']) || empty($_POST['email']) || empty($_POST['pwd']) || empty($_POST['pwdConfirm'])){
+	if(empty($_POST['firstName']) || empty($_POST['lastName']) || empty($_POST['email']) || empty($_POST['bday']) || empty($_POST['pwd']) || empty($_POST['pwdConfirm'])){
 		$invalid = "All fields are required";
 	}else{
 		$firstname = mysqli_real_escape_string($conn,$_POST['firstName']);
 		$lastname = mysqli_real_escape_string($conn,$_POST['lastName']);
 		$email = mysqli_real_escape_string($conn,$_POST['email']);
+		$bday = mysqli_real_escape_string($conn,$_POST['bday']);
 		$pass = mysqli_real_escape_string($conn,$_POST['pwd']);
 		$passConfirm = mysqli_real_escape_string($conn,$_POST['pwdConfirm']);
 		
@@ -27,14 +28,13 @@ if(isset($_POST['submit']))
 
 			 if($pass == $passConfirm){
 			 
-				 if(mysqli_query($conn,"INSERT INTO user(firstName, lastName, userName, pass) VALUES('$firstname','$lastname','$email','$pass')"))
+				 if(mysqli_query($conn,"INSERT INTO user(firstName, lastName, userName, dateOfBirth, pass) VALUES('$firstname','$lastname','$email','$bday','$pass')"))
 				 {
 						$_SESSION['login_user'] = $email;
 						header("location:application2.php");
 
-				 }
-				 else
-				 {
+				 }else{
+					 echo mysqli_error($conn);
 				  ?>
 						<script>alert('Error while registering you...');</script>
 						<?php
@@ -94,6 +94,11 @@ if(isset($_POST['submit']))
   <div class="form-group">
     <label for="email">Email address:</label>
     <input type="email" class="form-control" name="email">
+  </div>
+    </div>
+       <div class="form-group">
+    <label for="bday">Date of birth: </label>
+    <input type="date" class="form-control" name="bday">
   </div>
   <div class="form-group">
     <label for="pwd">Password:</label>
