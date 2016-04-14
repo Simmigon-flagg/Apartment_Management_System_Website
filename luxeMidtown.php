@@ -41,6 +41,7 @@
 <html>
 
 <head>
+<div style="width: 1150px; margin: 50px auto 0 auto;">
   <meta http-equiv="X-UA-Compatible" content="IE=Edge"> <!-- For intranet testing only, remove in production. -->
   <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
   <title>Slide Show</title>
@@ -80,7 +81,7 @@ window.onload=swapImage;
 <img height="450" name="slide" src="image_1.gif" width="900" />
 
 </div>
-
+<div style="width: 1150px; margin: 50px auto 0 auto;">
 <div class='jump' id='community_overview'>
 <h2>Community Overview</h2>
 <p itemprop='description'><div data-mercury="full" id="Property__881__long_description">Experience the excitement of Atlanta's West Midtown neighborhood. Call Luxe Midtown home and enjoy nearby King Plow Arts Center, Atlantic Station and all west side has to offer. Just moments from Downtown and Buckhead, Luxe Midtown has some of the most unique amenities in town including a saline pool with aqua lounge, outdoor theater, fitness center and billiards room.  You'll also know you're doing your part for the environment while living in responsible green luxury in one of Atlanta's first EarthCraft-certified apartment communities. With one and two bedroom apartments offering hardwood floors, 9' ceilings, granite countertops with brick backsplashes and unique built-in desks and bookcases, you'll be the envy of the neighborhood.</div></p>
@@ -88,8 +89,7 @@ window.onload=swapImage;
  </div>
         </div>
     </div>
-    <br>
-    <br>
+	<div style="width: 1150px; margin: 50px auto 0 auto;">
    <div id="featuresAmenities">
         <div class="communityOverview_sectionTitle"><a id="CPH_innerContent_FeaturesAmenities" name="FeaturesAmenities" style="font-size: 22px; font-weight: bold;">Features & Amenities</a></div>
         </div>
@@ -175,5 +175,5 @@ window.onload=swapImage;
 
 </div>
 </div>
-
+</div>
 <?php include("footer.php");?>
