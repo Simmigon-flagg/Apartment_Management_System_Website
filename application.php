@@ -1,6 +1,6 @@
 <?php  include_once("header.php");?>
 <?php
-	var_dump($_REQUEST); 				//remove
+	//var_dump($_REQUEST); 				//remove
 session_start();
 /*if(isset($_SESSION['login_user'])!="")		//if user is logged in, they are redirected to userLogin.php
 {

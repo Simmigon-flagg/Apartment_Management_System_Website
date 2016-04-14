@@ -22,6 +22,7 @@ $login_session = $row['iduser'];
 }*/
 
 //echo $login_session;				//testing - remove
+$invalid = "";
 
 if(isset($_POST['submit'])){
 	if(empty($_POST['address']) || empty($_POST['city']) || empty($_POST['state']) || empty($_POST['zip']) || empty($_POST['phone']) /*|| empty($_POST['bday']) */|| empty($_POST['ssn1']) || empty($_POST['ssn2']) || empty($_POST['ssn3']) || empty($_POST['employer']) || empty($_POST['job']) || empty($_POST['income'])){
@@ -60,6 +61,8 @@ if(isset($_POST['submit'])){
 		
 <h3 id="centerHeader" >Application</h3>
 <h5 id="centerHeader">page 2 of 2</h5>
+
+<center><b><font color = "red"><?php echo $invalid; ?></font></b></center>
 
 <div style="width: 600px; margin: 40px auto 0 auto;">
 <form role="form" method="POST" action="">
