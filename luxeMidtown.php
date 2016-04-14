@@ -46,18 +46,28 @@
   <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
   <title>Slide Show</title>
 </head>
+<body background-color= "gray";>
 
-<body>
-  <div id="slideShowImages">
-    <img src="Images/LM2.jpg" alt="Slide 1" />
-    <img src="Images/LM3.jpg" alt="Slide 2" />
-    <img src="Images/LM4.jpg" alt="Slide 3" />    
-    <img src="Images/LM5.jpg" alt="Slide 4" />
-  </div>  
-  <button id="slideShowButton"></button> <!-- Optional button element. -->
-  <script src="slideShow.js"></script>
-</body>
-</div>
+
+<script language="JavaScript">
+var i = 0;
+var path = new Array();
+ 
+// LIST OF IMAGES
+path[0] = "Images/LM1.jpg";
+path[1] = "Images/LM2.jpg";
+path[2] = "Images/LM3.jpg";
+
+function swapImage()
+{
+   document.slide.src = path[i];
+   if(i < path.length - 1) i++; else i = 0;
+   setTimeout("swapImage()",3000);
+}
+window.onload=swapImage;
+</script>
+<img height="500" name="slide" src="image_1.gif" width="1000" />
+
 </div>
 
 <div class='jump' id='community_overview'>
