@@ -20,14 +20,14 @@
  <label for="bathrooms">Type of card:</label>  
   <select class="form-control" id="bedrooms">
   <option value="volvo">Visa</option>
-  <option value="saab">American express</option>
+  <option value="saab">American Express</option>
   <option value="opel">Discover</option>
-  <option value="vauxhall">Master</option>
+  <option value="vauxhall">MasterCard</option>
   </select>
 </div>
 
 <td colspan="2" align="center"><small>
-<h3 id="centerHeader" >Enter the billing address:</h3>
+<h3 id="centerHeader" >Enter your billing address:</h3>
 
   <div class="form-group">
     <label for="lastName">Street Address:</label>

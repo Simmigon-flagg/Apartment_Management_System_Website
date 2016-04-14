@@ -12,7 +12,7 @@
    <body> <!--background= "Images/cityview3.jpg"--> 
    <style>
    body{
-     background: url(Images/cityview3.jpg) no-repeat center center fixed; 
+     background: url(Images/randomhome-darker.jpg) no-repeat center center fixed; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -21,7 +21,7 @@
    </style>
 	<br>
 	<br>
-	<h1><p id="centerHeader"><font color= "white"> The Luxe Difference</font></p></h1>
+	<h1><p id="centerHeader"><font color= "white"> The Luxe Difference</font></p></h1>	<!--FONT AND COLOR NEED TO BE CHANGED!!-->
 	<h4><p id="centerHeader"><font color= "white"> Ideal Locations. Impressive Amenities. Immaculate Apartments </font></p></h1>
 	<div class="search-groups">
 	</div>
