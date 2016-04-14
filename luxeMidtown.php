@@ -74,7 +74,7 @@ function swapImage()
 {
    document.slide.src = path[i];
    if(i < path.length - 1) i++; else i = 0;
-   setTimeout("swapImage()",3000);
+   setTimeout("swapImage()",8000);
 }
 window.onload=swapImage;
 </script>
