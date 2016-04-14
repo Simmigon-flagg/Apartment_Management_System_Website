@@ -1,14 +1,16 @@
 <?php include("header.php"); ?>
 <html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
-</script>
-</head>
+
 <body>  
 
 <div style="width: 700px; margin: 50px auto 0 auto;">
 	<div id = "applyNow">
+	
+	<div id="left"></div>
+<div id="right"></div>
+<div id="top"></div>
+<div id="bottom"></div>
 	
 	
   </div>
@@ -17,7 +19,7 @@
 <html lang='en'>
 <head>
 <meta charset='utf-8'>
-<meta content='chrome=1; IE=9; IE=8; IE=7; IE=EDGE' http-equiv='X-UA-Compatible'>
+<meta content='chrome=1; IE=9; IE=8; IE=7; IE=CENTER' http-equiv='X-UA-Compatible'>
 <meta content='width=device-width' name='viewport'>
 
 <meta content='Luxe Midtown' property='og:title'>
@@ -28,15 +30,11 @@
 
 </html>
 
-</a>
-</div>
-</div>
-</div>
-</header>
-
-<section id='main_content'><div class='community' id='property'>
-<div class='main_content' itemscope itemtype='http://schema.org/Residence'>
-<h1 itemprop='name'>Luxe Midtown Atlanta</h1>
+<div style="width: 700px; margin: 50px auto 0 auto;">
+	<div id = "applyNow">
+	<h2><p id="centerHeader"><font color= "black"><b><h1>Luxe Midtown Atlanta<h1></b></font></p></h2>	
+	</div>
+	</div>
 
 <!DOCTYPE html>
 <html>
@@ -46,10 +44,8 @@
   <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
   <title>Slide Show</title>
 </head>
-<body background-color= "gray";>
 
-
-<script language="JavaScript">
+<script language="JavaScript" id="centerpicture">
 var i = 0;
 var path = new Array();
  
@@ -57,6 +53,20 @@ var path = new Array();
 path[0] = "Images/LM1.jpg";
 path[1] = "Images/LM2.jpg";
 path[2] = "Images/LM3.jpg";
+path[3] = "Images/LM4.jpg";
+path[4] = "Images/LM5.jpg";
+path[5] = "Images/LM6.jpg";
+path[6] = "Images/LM7.jpg";
+path[7] = "Images/LM8.jpg";
+path[8] = "Images/LM9.jpg";
+path[9] = "Images/LM10.jpg";
+path[10] = "Images/LM1bed.png";
+path[11] = "Images/LM1bed2.png";
+path[12] = "Images/LM2bed.png";
+path[13] = "Images/LM2bed2.png";
+path[14] = "Images/LM3bed.png";
+path[15] = "Images/LM3bed2.png";
+
 
 function swapImage()
 {
@@ -66,9 +76,33 @@ function swapImage()
 }
 window.onload=swapImage;
 </script>
-<img height="500" name="slide" src="image_1.gif" width="1000" />
+<img height="450" name="slide" src="image_1.gif" width="900" />
 
 </div>
+<div.background= {
+  background: url(klematis.jpg) repeat;
+  border: 2px solid black;
+}
+
+div.transbox {
+  margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+div.transbox p {
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+}
+</style>
+</head>
+<body>
+
+<div class="background">
+  <div class="transbox"
 
 <div class='jump' id='community_overview'>
 <h2>Community Overview</h2>
@@ -88,7 +122,7 @@ window.onload=swapImage;
                                     <ul style="list-style-type: disc">
                                         
                                     <li style="padding-bottom: 5px;">
-                                        <span id="CPH_innerContent_lv_propertyInformation_Features_lbl_propfeatures_0" class="textcontent">One-, two-, and three-bedroom apartments</span></li>
+                                        <span id="CPH_innerContent_lv_propertyInformation_Features_lbl_propfeatures_0" class="textcontent">One, two, and three bedroom apartments</span></li>
                                 
                                     <li style="padding-bottom: 5px;">
                                         <span id="CPH_innerContent_lv_propertyInformation_Features_lbl_propfeatures_1" class="textcontent">Designer kitchens featuring: Wood cabinetry, granite countertops, tile floors and backsplashes, stainless steel appliances, and built-in microwaves</span></li>
