@@ -24,19 +24,21 @@ $login_session = $row['iduser'];
 //echo $login_session;				//testing - remove
 
 if(isset($_POST['submit'])){
-	if(empty($_POST['address']) || empty($_POST['city']) || empty($_POST['state']) || empty($_POST['zip']) || empty($_POST['phone']) /*|| empty($_POST['bday']) */|| empty($_POST['ssn1']) || empty($_POST['ssn2']) || empty($_POST['ssn3'])){
+	if(empty($_POST['address']) || empty($_POST['city']) || empty($_POST['state']) || empty($_POST['zip']) || empty($_POST['phone']) /*|| empty($_POST['bday']) */|| empty($_POST['ssn1']) || empty($_POST['ssn2']) || empty($_POST['ssn3']) || empty($_POST['employer']) || empty($_POST['job']) || empty($_POST['income'])){
 	$invalid = "All fields are required";
 	}else{
 	
-		 $address = mysqli_real_escape_string($conn,$_POST['address']);		//STILL NEED TO IMPLEMENT FORM VALIDATION
+		 $address = mysqli_real_escape_string($conn,$_POST['address']);
 		 $city = mysqli_real_escape_string($conn,$_POST['city']);
 		 $state = mysqli_real_escape_string($conn,$_POST['state']);
 		 $zip = mysqli_real_escape_string($conn,$_POST['zip']);
 		 $phone = mysqli_real_escape_string($conn,$_POST['phone']);
-		 //$bday = mysqli_real_escape_string($conn,$_POST['bday']);
 		 $ssn = mysqli_real_escape_string($conn,$_POST['ssn1'] . $_POST['ssn2'] . $_POST['ssn3']);
+		 $employer = mysqli_real_escape_string($conn,$_POST['employer']);
+		 $job = mysqli_real_escape_string($conn,$_POST['job']);
+		 $income = mysqli_real_escape_string($conn,$_POST['income']);
 		 
-		 if(mysqli_query($conn,"INSERT INTO applicant(iduser, socialSecurity, streetAddress, City, Zip, phoneNumber) VALUES('$login_session','$ssn','$address','$city','$zip','$phone')")){
+		 if(mysqli_query($conn,"INSERT INTO applicant(iduser, socialSecurity, streetAddress, City, Zip, phoneNumber, employedBy, JobTitle, monthlyGrossPay) VALUES('$login_session','$ssn','$address','$city','$zip','$phone','$employer','$job','$income')")){
 					 header("location:confirmationPage.php");
 
 		 }else{
@@ -61,14 +63,6 @@ if(isset($_POST['submit'])){
 
 <div style="width: 600px; margin: 40px auto 0 auto;">
 <form role="form" method="POST" action="">
-  <!-- <div class="form-group">
-    <label for="firstName">First Name:</label>
-    <input type="firstName" class="form-control" name="firstName">
-  </div>
-  <div class="form-group">
-    <label for="lastName">Last Name:</label>
-    <input type="lastName" class="form-control" name="lastName">
-  </div> -->
   <div class="form-group">
     <label for="address">Current Address:</label>
     <input type="address" class="form-control" name="address">
@@ -99,26 +93,31 @@ if(isset($_POST['submit'])){
 </div>
 </div>
 <div class="form-group">
-   <label for="title">Employer </label>
-    <input type="title" class="form-control" name="title">
+   <label for="employer">Employer: </label>
+    <input type="employer" class="form-control" name="employer">
   </div>
 <div class="form-group">
-   <label for="job">Job title </label>
+   <label for="job">Job Title: </label>
     <input type="job" class="form-control" name="job">
   </div>
   
   <div class="form-group">
-   <label for="income">Monthly gross income </label>
+   <label for="income">Monthly Gross Income </label>
     <input type="income" class="form-control" name="income">
   </div>
        <div class="form-group">
-    <label for="bday">Move in day: </label>
-    <input type="date" class="form-control" name="bday">
+    <label for="movein">Move in day: </label>
+    <input type="date" class="form-control" name="movein">
   </div>
-  
   <div class="form-group">
- <label for="bday">Apartment Location: </label>  
- </div>
+ <label for="location">Apartment Location: </label>  
+  <select class="form-control" id="location">
+  <option disabled selected>Choose one...</option>
+  <option value="downtown">Luxe Downtown</option>
+  <option value="midtown">Luxe Midtown</option>
+  <option value="buckhead">Luxe Buckhead</option>
+  </select> 
+  </div>
  <div class="form-group">
  <label for="bedrooms">Number of bedrooms: </label>  
   <select class="form-control" id="bedrooms">
