@@ -79,30 +79,6 @@ window.onload=swapImage;
 <img height="450" name="slide" src="image_1.gif" width="900" />
 
 </div>
-<div.background= {
-  background: url(klematis.jpg) repeat;
-  border: 2px solid black;
-}
-
-div.transbox {
-  margin: 30px;
-  background-color: #ffffff;
-  border: 1px solid black;
-  opacity: 0.6;
-  filter: alpha(opacity=60); /* For IE8 and earlier */
-}
-
-div.transbox p {
-  margin: 5%;
-  font-weight: bold;
-  color: #000000;
-}
-</style>
-</head>
-<body>
-
-<div class="background">
-  <div class="transbox"
 
 <div class='jump' id='community_overview'>
 <h2>Community Overview</h2>
@@ -111,6 +87,8 @@ div.transbox p {
  </div>
         </div>
     </div>
+    <br>
+    <br>
    <div id="featuresAmenities">
         <div class="communityOverview_sectionTitle"><a id="CPH_innerContent_FeaturesAmenities" name="FeaturesAmenities" style="font-size: 22px; font-weight: bold;">Features & Amenities</a></div>
         </div>

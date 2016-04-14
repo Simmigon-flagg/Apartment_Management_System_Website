@@ -9,10 +9,10 @@
 		<link rel="stylesheet" href="styles/style.css" type="text/css" />
 <div style="width: 600px; margin: 50px auto 0 auto;">
 	<div id = "applyNow">
-   <body> <!--background= "Images/cityview3.jpg"--> 
+   <body> <!--background= "Images/br.jpg"--> 
    <style>
    body{
-     background: url(Images/randomhome-darker.jpg) no-repeat center center fixed; 
+     background: url(Images/br.jpg) no-repeat center center fixed; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -27,20 +27,20 @@
 	</div>
 	</div>
 	<br>
-	<br/><br/><br/>
+	</br></br></br>
 	 <div class="row text-center">
       <div class="col-sm-4">
         <div class="thumbnail">
           <img src = "Images/Downtown 3.jpg" alt="Paris" width="500" height="400">
           <a class="btn" href="luxeDowntown.php"> <button class="btn">Luxe Downtown</button> </a>
-          <p><strong>Be at the center of it all, steps away from amazing attractions and entertainment</strong></p>
+          <p><strong><font size="1px">Be at the center of it all steps away from amazing attractions and entertainment</strong></p>
         </div>
       </div>
       <div class="col-sm-4">
         <div class="thumbnail">
           <img src="Images/Midtown.jpg" alt="New York" width="500" height="400">
          <a class="btn" href="luxeMidtown.php"> <button class="btn">Luxe Midtown</button> </a>
-         <p><strong>Where historical significance meets a mouth- watering food scene</strong></p>
+         <p><strong><font size="1px">Where a historical significance meets a mouth- watering & delectable food scene</strong></p>
 		 <!-- <a class="navbar-brand" href="index.php">Apartment Rental</a> -->
         </div>
       </div>
@@ -48,10 +48,11 @@
         <div class="thumbnail">
           <img src="Images/Buckhead 2.jpg" alt="San Francisco" width="500" height="400">
           <a class="btn" href="luxeBuckhead.php"> <button class="btn">Luxe Buckhead</button> </a>
-          <p><strong>A community of elegance and business, home to families and professionals alike</strong></p>
+          <p><strong><font size="1px">A community of elegance and business,Buckhead is home to families and professionals alike</strong></p>
         </div>
       </div>
-
+<br>
+<br>
 
 
 </style>
