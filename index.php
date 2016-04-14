@@ -18,11 +18,12 @@
 	-o-background-size: cover;
 	background-size: cover;
    }
+
    </style>
 	<br>
 	<br>
-	<h1><p id="centerHeader"><font color= "white"> The Luxe Difference</font></p></h1>	<!--FONT AND COLOR NEED TO BE CHANGED!!-->
-	<h4><p id="centerHeader"><font color= "white"> Ideal Locations. Impressive Amenities. Immaculate Apartments </font></p></h1>
+	<h1><p id="centerHeader"><font face="luxury-platinum" color= "white">The Luxe Difference</font></p></h1>	<!--FONT AND COLOR NEED TO BE CHANGED!!-->
+	<h5><p id="centerHeader"><font face="luxury-platinum" color= "white">Ideal Locations. Impressive Amenities. Immaculate Apartments </font></p></h5>
 	<div class="search-groups">
 	</div>
 	</div>
