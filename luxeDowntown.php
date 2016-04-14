@@ -20,7 +20,7 @@
     <div class="ui-grid-a">
       <div class="ui-block-a">
 	  <figure>
-	  <figcaption style="width: 200px; margin: 10px auto 0 auto;"><h2><font size= "3px">Pool with sundeck<h2></font></figcaption>
+	  <figcaption style="width: 200px; margin: 10px auto 0 auto;"><h2><font size= "3px">Sundeck Pool<h2></font></figcaption>
         <span><img src= "Images/LD6.jpg" alt="Paris" width="450" height="350"></span>
 </figure>
 
@@ -37,7 +37,7 @@
 
       <div class="ui-block-b">
        <figure>
-	  <figcaption style="width: 200px; margin: 20px auto 0 auto;"><h2><font size= "3px">Master bedroom<h2></font></figcaption>
+	  <figcaption style="width: 200px; margin: 20px auto 0 auto;"><h2><font size= "3px">Master Bedroom<h2></font></figcaption>
         <span><img src= "Images/LD3.jpg" alt="Paris" width="450" height="350"></span>
 </figure>
 		
