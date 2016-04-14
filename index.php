@@ -51,11 +51,8 @@
           <p><strong>A community of elegance and business, home to families and professionals alike</strong></p>
         </div>
       </div>
-</div>
-        </div>
-      </div>
 
-.
+
 
 </style>
 </head>

@@ -96,3 +96,8 @@ white-space: nowrap;
 
 #container img {display: inline-block; margin: 0 100px;}
 
+.div1 {
+    width: 300px;
+    height: 100px;
+    border: 1px solid blue;
+}
