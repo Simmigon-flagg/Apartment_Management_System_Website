@@ -12,6 +12,7 @@
 <div id="top"></div>
 <div id="bottom"></div>
 	
+	<body background-color= "blue">
 	
   </div>
 </div> 
