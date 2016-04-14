@@ -34,14 +34,14 @@
         <div class="thumbnail">
           <img src = "Images/Downtown 3.jpg" alt="Paris" width="500" height="400">
           <a class="btn" href="luxeDowntown.php"> <button class="btn">Luxe Downtown</button> </a>
-          <p><strong><font size="1px">Be at the center of it all steps away from amazing attractions and entertainment</strong></p>
+          <p><strong><font size="1px">Be at the center of it all steps away from amazing attractions and entertainment</font></strong></p>
         </div>
       </div>
       <div class="col-sm-4">
         <div class="thumbnail">
           <img src="Images/Midtown.jpg" alt="New York" width="500" height="400">
          <a class="btn" href="luxeMidtown.php"> <button class="btn">Luxe Midtown</button> </a>
-         <p><strong><font size="1px">Where a historical significance meets a mouth- watering & delectable food scene</strong></p>
+         <p><strong><font size="1px">Where a historical significance meets a mouth- watering & delectable food scene</font></strong></p>
 		 <!-- <a class="navbar-brand" href="index.php">Apartment Rental</a> -->
         </div>
       </div>
@@ -49,7 +49,7 @@
         <div class="thumbnail">
           <img src="Images/Buckhead 2.jpg" alt="San Francisco" width="500" height="400">
           <a class="btn" href="luxeBuckhead.php"> <button class="btn">Luxe Buckhead</button> </a>
-          <p><strong><font size="1px">A community of elegance and business,Buckhead is home to families and professionals alike</strong></p>
+          <p><strong><font size="1px">A community of elegance and business,Buckhead is home to families and professionals alike</font></strong></p>
         </div>
       </div>
 <br>
