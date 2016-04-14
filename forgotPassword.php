@@ -7,14 +7,17 @@
 		<link rel="stylesheet" href="styles/style.css" type="text/css" />
 <div style="width: 600px; margin: 50px auto 0 auto;">
 
-<h1>Request new password
-</h1>
+<h1>Request New Password</h1>
+<br>
 
-<form action="" method="POST" role="form">
+<form action="change.php" method="POST" role="form">
   <div class="form-group">
-    <label for="username">Email address:</label>
-    <input type="email" class="form-control" name="username">
+    <label for="email">Email address:</label>
+    <input type="email" class="form-control" name="email">
   </div>
+  <div>
+  <button type="submit" class="btn btn-default" name="ForgotPassword">Submit</button>
+	</div>
   </div>
 </p>
 
