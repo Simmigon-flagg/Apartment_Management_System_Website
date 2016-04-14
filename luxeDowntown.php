@@ -11,7 +11,7 @@
 
 <div style="width: 700px; margin: 50px auto 0 auto;">
 	<div id = "applyNow">
-	<h2><p id="centerHeader"><font color= "black"><b><h1>The Luxe Downtown Layout of the apartment<h1></b></font></p></h2>	
+	<h2><p id="centerHeader"><font color= "black"><b><h1>Luxe Downtown Atlanta<h1></b></font></p></h2>	
 	</div>
 	</div>
 	
@@ -20,33 +20,33 @@
     <div class="ui-grid-a">
       <div class="ui-block-a">
 	  <figure>
-	  <figcaption style="width: 200px; margin: 20px auto 0 auto;"><h2>Bedroom<h2></figcaption>
-        <span><img src= "Images/Downtown 3.jpg" alt="Paris" width="400" height="300"></span>
+	  <figcaption style="width: 200px; margin: 10px auto 0 auto;"><h2>Pool<h2></figcaption>
+        <span><img src= "Images/LD6.jpg" alt="Paris" width="400" height="300"></span>
 </figure>
 
 		<figure>
 	  <figcaption style="width: 200px; margin: 20px auto 0 auto;"><h2>Bedroom<h2></figcaption>
-        <span><img src= "Images/Downtown 3.jpg" alt="Paris" width="400" height="300"></span>
+        <span><img src= "Images/LD2.jpg" alt="Paris" width="400" height="300"></span>
 </figure>
 		<figure>
 	  <figcaption style="width: 200px; margin: 20px auto 0 auto;"><h2>Bedroom<h2></figcaption>
-        <span><img src= "Images/Downtown 3.jpg" alt="Paris" width="400" height="300"></span>
+        <span><img src= "Images/LD7.jpg" alt="Paris" width="400" height="300"></span>
 </figure>
 		</div>
 
       <div class="ui-block-b">
        <figure>
 	  <figcaption style="width: 200px; margin: 20px auto 0 auto;"><h2>Bedroom<h2></figcaption>
-        <span><img src= "Images/Downtown 3.jpg" alt="Paris" width="400" height="300"></span>
+        <span><img src= "Images/LD3.jpg" alt="Paris" width="400" height="300"></span>
 </figure>
 		
 		<figure>
 	  <figcaption style="width: 200px; margin: 20px auto 0 auto;"><h2>Bedroom<h2></figcaption>
-        <span><img src= "Images/Downtown 3.jpg" alt="Paris" width="400" height="300"></span>
+        <span><img src= "Images/LD4.jpg" alt="Paris" width="400" height="300"></span>
 </figure>
         <figure>
 	  <figcaption style="width: 200px; margin: 20px auto 0 auto;"><h2>Bedroom<h2></figcaption>
-        <span><img src= "Images/Downtown 3.jpg" alt="Paris" width="400" height="300"></span>
+        <span><img src= "Images/LD5.jpg" alt="Paris" width="400" height="300"></span>
 </figure>
       </div>
     </div>
