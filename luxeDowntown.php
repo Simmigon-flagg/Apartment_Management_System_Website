@@ -47,16 +47,21 @@
 </figure>
         <figure>
 	  <figcaption style="width: 200px; margin: 20px auto 0 auto;"><h2><font size= "3px">Master Bath<h2></font></figcaption>
-        <span><img src= "Images/LD9.jpg" alt="Paris" width="450" height="350"></span>
+        <span><img src= "Images/LD5.jpg" alt="Paris" width="450" height="350"></span>
 </figure>
       </div>
     </div>
-  </div>
+   </div>
 </div>
-
-<div 
-    -webkit-column-count: 2;
-    column-count: 2;
-</div>
+<br>
+<br>
+<div style="width: 700px; margin: 50px auto 0 auto;">
+	<div id = "applyNow">
+<h2><p id="centerHeader"><font size="5px" color= "black"><b><h1><font>Please Call for Pricing & Availability<h1></b></font></p></h2>
+<br>
+<br>
+<h2><p id="centerHeader"><font color= "black"><b><h1><font size="4px" face="luxury-platinum">Luxe Downtown<h1></b></p></h2>
+<h2><p id="centerHeader"><font color= "black"><b><h1><font size="4px" face="luxury-platinum">33 Gilmore Street NE<h1></b></p></h2>
+<h2><p id="centerHeader"><font color= "black"><b><h1><font size="4px" face="luxury-platinum">Atlanta, GA 30303<h1></b></p></h2>
 
 <?php include("footer.php");?>

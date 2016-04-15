@@ -50,7 +50,17 @@
         <span><img src= "Images/LB9.jpg" alt="Paris" width="450" height="350"></span>
 </figure>
       </div>
-  </div>
+   </div>
 </div>
-
+<br>
+<br>
+<div style="width: 700px; margin: 50px auto 0 auto;">
+	<div id = "applyNow">
+<h2><p id="centerHeader"><font size="5px" color= "black"><b><h1><font>Please Call for Pricing & Availability<h1></b></font></p></h2>
+<br>
+<br>
+<h2><p id="centerHeader"><font color= "black"><b><h1><font size="4px" face="luxury-platinum">Luxe Buckhead<h1></b></p></h2>
+<h2><p id="centerHeader"><font color= "black"><b><h1><font size="4px" face="luxury-platinum">2960 Peidmont Rd NE<h1></b></p></h2>
+<h2><p id="centerHeader"><font color= "black"><b><h1><font size="4px" face="luxury-platinum">Atlanta, GA 30224<h1></b></p></h2>
+</div>
 <?php include("footer.php");?>
