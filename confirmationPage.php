@@ -26,9 +26,21 @@
  <img src="images/checkmark.jpg" alt="check" width="150" height="150">
 </div>
 <div style="width: 1000px; margin: 40px auto 0 auto;">
-<h2>You are one step ahead! You are now registered and have applied
- for an apartment! You will receive
- a confirmation email after we review your application.</h2> </div>
+<h2><p id="centerHeader">Thank you for applying to Luxe
+<br>
+<font size="4px"> We look forward to reviewing your application and will contact you with a decision soon</font></h2> </div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 <?php include("footer.php");?>
 
