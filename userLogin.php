@@ -2,10 +2,10 @@
 //include('session.php');
 //echo 'Welcome, ' .$login_session , '!';          //for testing. prints user's first name
 ?>
- <body> <!--background= "Images/userlog3.jpg"--> 
+ <body> <!--background= "Images/userlog4.jpg"--> 
    <style>
    body{
-     background: url(Images/userlog3.jpg) no-repeat center center fixed; 
+     background: url(Images/userlog4.jpg) no-repeat center center fixed; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
