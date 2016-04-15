@@ -47,7 +47,7 @@
 </figure>
         <figure>
 	  <figcaption style="width: 200px; margin: 20px auto 0 auto;"><h2><font size= "3px">Master Bath<h2></font></figcaption>
-        <span><img src= "Images/LD5.jpg" alt="Paris" width="450" height="350"></span>
+        <span><img src= "Images/LD9.jpg" alt="Paris" width="450" height="350"></span>
 </figure>
       </div>
     </div>

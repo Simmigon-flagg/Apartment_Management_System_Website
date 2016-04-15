@@ -12,7 +12,7 @@
 <div style="width: 700px; margin: 50px auto 0 auto;">
 	<div id = "applyNow">
 	<h2><p id="centerHeader"><font color= "black"><b><h1><font face="luxury-platinum">Luxe Midtown Atlanta<h1></b></font></p></h2>	
-	<h4><p id="centerHeader"><font face="ubuntu">Experience the excitement of Atlanta's West Midtown neighborhood. Call Luxe Midtown home and enjoy nearby King Plow Arts Center, Atlantic Station and all west side has to offer. Just moments from Downtown and Buckhead, Luxe Midtown has some of the most unique amenities in town including a saline pool with aqua lounge, outdoor theater, fitness center and billiards room.  You'll also know you're doing your part for the environment while living in responsible green luxury in one of Atlanta's first EarthCraft-certified apartment communities. With one and two bedroom apartments offering hardwood floors, 9' ceilings, granite countertops with brick backsplashes and unique built-in desks and bookcases, you'll be the envy of the neighborhood.</font></p></h4>
+	<h4><p id="centerHeader"><font face="ubuntu">Experience the excitement of Atlanta's West Midtown neighborhood. Call Luxe Midtown home and enjoy nearby King Plow Arts Center, Atlantic Station and all west side has to offer. Just moments from Downtown and Buckhead, Luxe Midtown has some of the most unique amenities in town including a saline pool with aqua lounge, outdoor theater, fitness center and billiards room.  You'll also know you're doing your part for the environment while living in responsible green luxury in one of Atlanta's first EarthCraft-certified apartment communities. With one and two bedroom apartments offering hardwood floors, 10' ceilings, granite countertops with brick backsplashes and unique built-in desks and bookcases, you'll be the envy of the neighborhood.</font></p></h4>
 	</div>
 	</div>
 	
@@ -50,10 +50,21 @@
 	  <figcaption style="width: 200px; margin: 20px auto 0 auto;"><h2><font size= "3px">Living Area<h2></font></figcaption>
         <span><img src= "Images/LM7.jpg" alt="Paris" width="450" height="350"></span>
 </figure>
+
       </div>
     </div>
   </div>
 </div>
+<br>
+<br>
+<div style="width: 700px; margin: 50px auto 0 auto;">
+	<div id = "applyNow">
+<h2><p id="centerHeader"><font size="5px" color= "black"><b><h1><font>Please Call for Pricing & Availability<h1></b></font></p></h2>
+<br>
+<br>
+<h2><p id="centerHeader"><font color= "black"><b><h1><font size="4px" face="luxury-platinum">Luxe Midtown<h1></b></p></h2>
+<h2><p id="centerHeader"><font color= "black"><b><h1><font size="4px" face="luxury-platinum">100 10th Street NW<h1></b></p></h2>
+<h2><p id="centerHeader"><font color= "black"><b><h1><font size="4px" face="luxury-platinum">Atlanta, GA 30309<h1></b></p></h2>
 
 
 <?php include("footer.php");?>
