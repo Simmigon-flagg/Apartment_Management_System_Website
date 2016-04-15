@@ -53,17 +53,11 @@
 </div>
 <div id = "myDIV " >
 <div class="row text-center">
-<<<<<<< HEAD
       <div class="col-sm-4" >
         <div class="thumbnail" 
  <a class="btn"><font face="calibri" size="5px"><b><u>Maintenance</u></b></font></a><br><br>
  <img src = "Images/Maintenance.jpg" alt="Maintenance Request " width="126" height="126">
-=======
-      <div class="col-sm-4">
-        <div class="thumbnail"
- <a class="btn"><strong>Maintenance</strong></a><br>
- <img src = "Images/maintenance.png" alt="Maintenance Request " width="100" height="100">
->>>>>>> origin/master
+
 <p><a class="btn" href="addNewRequest.php"> <button class="btn">Add New Request</button> </a></p>
 <p><a class="btn" href="viewMaintenanceHistory.php"> <button class="btn">View Maintenance History</button></a></p>
 <br>
