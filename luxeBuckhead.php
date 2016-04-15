@@ -12,7 +12,8 @@
 <div style="width: 700px; margin: 50px auto 0 auto;">
 	<div id = "applyNow">
 	<h2><p id="centerHeader"><font color= "black"><b><h1><font face="luxury-platinum">Luxe Buckhead Atlanta<h1></b></font></p></h2>	
-	<h4><p id="centerHeader"><font face="ubuntu">An exquisite high-rise building in Downtown Atlanta, this building is designed to make living fun. There’s an outdoor terrace with a pool, sundeck, grill and bar; a club room with plasma TVs, internet kiosks, catering kitchen and wet bar; state-of-the-art fitness center and a beautiful restaurant and lobby bar. The homes are spacious and open with 10’ ceilings, top of the line kitchens with wood cabinets, granite countertops and stainless steel appliances, and all are pre-wired for cable, DIRECTV and in-home audio. The icing is your large, private balcony with amazing city views. <span> This particular Luxe building is perfect for heavy travelers, with its immediate access to a Marta bus and train station just downstairs.</font></p></h4>
+	<h4><p id="centerHeader"><font face="ubuntu">Located at the epicenter of The Buckhead Financial District, Luxe Buckhead is the perfect location for those seeking a modern residence in the city's most sought after address. Within walking distance of the Southeast's finest shopping at Lenox Square and Phipps Plaza, as well as fine dining and vibrant nightlife, SkyHouse Buckhead provides access to the best Atlanta has to offer. Choose from our studio, 1, 2, or 3 bedroom rentals. Entertain in the spacious 26th-floor LuxeLounge, refresh on the LuxeDeck in one of two rooftop pools, rejuvenate in the 24-hour LuxeFit gym, or relax in the first floor LuxeCafe.
+</font></p></h4>
 	</div>
 	</div>
 	<div style="width: 1000px; margin: 50px auto 0 auto;">
