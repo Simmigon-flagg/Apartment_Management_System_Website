@@ -23,7 +23,7 @@
 <div id = "applyNow">
  
 <!-- <h2><p id="centerHeader"><font color= "black"> <a href = "logout.php">Sign Out</a></p></h2> -->
-<<<<<<< HEAD
+<
 <p id="centerHeader"><font face="calibri" size="10px" color = "black"><b>WELCOME HOME</font></b></font></p>
 
 	</div>
@@ -34,7 +34,7 @@
       <div class="col-sm-4">
         <div class="thumbnail"
 		 <a class="btn"><font face="calibri" size="5px"><b><u>Rent</u></b></font></a><br><br>
- <img src = "Images/rentmoney.jpg" alt="Pay Rent" width="100" height="100">
+ <img src = "Images/money.png" alt="Pay Rent" width="100" height="100">
 <p><a class="btn" href="paySystem.php"> <button class="btn">Pay System</button> </a></p>
 <p><a class="btn" href="vpBillHistory.php"> <button class="btn">View/Print Bill History</button> </a></p>
 <br>
@@ -56,16 +56,18 @@
       <div class="col-sm-4" >
         <div class="thumbnail" 
  <a class="btn"><font face="calibri" size="5px"><b><u>Maintenance</u></b></font></a><br><br>
- <img src = "Images/Maintenance.jpg" alt="Maintenance Request " width="126" height="126">
+ <img src = "Images/Maintenance.png" alt="Maintenance Request " width="100" height="100">
 
 <p><a class="btn" href="addNewRequest.php"> <button class="btn">Add New Request</button> </a></p>
 <p><a class="btn" href="viewMaintenanceHistory.php"> <button class="btn">View Maintenance History</button></a></p>
 <br>
 </div>
 </div>
-</div>
-</div>
-<?php include("footer.php");?>
+
+</style>
+</head>	
+
+<?php include("footer.php"); ?>
 
 <!-- /*$favcolor = "red";
 
