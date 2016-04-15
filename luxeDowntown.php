@@ -63,5 +63,6 @@
 <h2><p id="centerHeader"><font color= "black"><b><h1><font size="4px" face="luxury-platinum">Luxe Downtown<h1></b></p></h2>
 <h2><p id="centerHeader"><font color= "black"><b><h1><font size="4px" face="luxury-platinum">33 Gilmore Street NE<h1></b></p></h2>
 <h2><p id="centerHeader"><font color= "black"><b><h1><font size="4px" face="luxury-platinum">Atlanta, GA 30303<h1></b></p></h2>
-
+<a href="#top">Back to top</a>
+</div>
 <?php include("footer.php");?>
