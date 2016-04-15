@@ -95,10 +95,3 @@ white-space: nowrap;
 }
 
 #container img {display: inline-block; margin: 0 100px;}
-
-#myDIV {
-    background-color:lightblue;
-    width:200px;
-    height:100px;
-    opacity:0.4;
-}

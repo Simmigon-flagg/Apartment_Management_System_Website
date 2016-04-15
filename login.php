@@ -70,7 +70,7 @@
      <br>
 	 <a  href="forgotPassword.php">Forgot password?</a>
 	</div>
-  <button type="submit" name="submit" class="btn btn-default">Submit</button>
+  <button type="submit" name="submit" class="btn btn-default">&nbsp;Submit</button>
 
   </div>
 

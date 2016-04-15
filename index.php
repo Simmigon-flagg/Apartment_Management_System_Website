@@ -7,7 +7,7 @@
 	<meta name="author" content="your name" />
 	<meta name="description" content="" />
 		<link rel="stylesheet" href="styles/style.css" type="text/css" />
-<div style="width: 600px; margin: 50px auto 0 auto;">
+<div style="width: 1000px; margin: 50px auto 0 auto;">
 	<div id = "applyNow">
    <body> <!--background= "Images/br.jpg"--> 
    <style>

@@ -96,6 +96,6 @@
 <h2><p id="centerHeader"><font color= "black"><b><h1><font size="4px" face="luxury-platinum">Luxe Midtown<h1></b></p></h2>
 <h2><p id="centerHeader"><font color= "black"><b><h1><font size="4px" face="luxury-platinum">100 10th Street NW<h1></b></p></h2>
 <h2><p id="centerHeader"><font color= "black"><b><h1><font size="4px" face="luxury-platinum">Atlanta, GA 30309<h1></b></p></h2>
-
-
+<a href="#top">Back to top</a>
+</div>
 <?php include("footer.php");?>
