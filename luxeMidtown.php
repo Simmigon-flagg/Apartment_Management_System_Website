@@ -54,7 +54,6 @@
       </div>
     </div>
      </div>
-<br>
 </li>
 </ul>
 </div>
@@ -88,7 +87,6 @@
     </div>
   </div>
 </div>
-<br>
 <br>
 <div style="width: 700px; margin: 50px auto 0 auto;">
 	<div id = "applyNow">
