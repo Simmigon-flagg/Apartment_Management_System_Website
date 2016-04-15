@@ -40,6 +40,10 @@
       }
       .row.content {height:auto;} 
     }
+	@font-face {
+	font-family: luxury-platinum; 
+	src: url('Images/luxury-platinum.otf');
+	} 
   </style>
   
 </head>
@@ -57,7 +61,7 @@ include_once('session.php');
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                   
       </button>
-      <a class="navbar-brand" href="userLogin.php">Apartment Rental</a>
+      <a class="navbar-brand" href="userLogin.php"><font face="luxury-platinum">Luxe Properties Atlanta</font></a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
