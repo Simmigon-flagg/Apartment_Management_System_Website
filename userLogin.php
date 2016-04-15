@@ -61,7 +61,7 @@
 <br><br>
 </div>
 </div>
-<div id = "myDIV " >
+
 <div class="row text-center">
       <div class="col-sm-4" >
         <div class="thumbnail" 
@@ -72,13 +72,8 @@
 <p><a class="btn" href="viewMaintenanceHistory.php"> <button class="btn">View Maintenance History</button></a></p>
 <br>
 </div>
+</div>	
 </div>
-</div>
-</div>
-</style>
-</head>	
-
-<?php include("footer.php"); ?>
 
 <!-- /*$favcolor = "red";
 
@@ -98,4 +93,4 @@ switch ($favcolor) {
         echo "Your favorite color is neither red, blue, nor green!";
 }*/
 ?> -->
-
+<?php include("footer.php"); ?> 
