@@ -1,4 +1,5 @@
-<?php include("header.php");
+<?php
+include("header.php");
 /*   include('data/dbConnect.php');
    session_start();
    
@@ -22,13 +23,18 @@
 	<meta name="description" content="" />
 		<link rel="stylesheet" href="styles/style.css" type="text/css" />
 
-<div style="width: 100px; margin: 40px auto 0 auto;">
+<div style="width: 160px; margin: 40px auto 0 auto;">
  <img src="images/checkmark.jpg" alt="check" width="150" height="150">
 </div>
 <div style="width: 1000px; margin: 40px auto 0 auto;">
 <h2><p id="centerHeader">Thank you for applying to Luxe
 <br>
-<font size="4px"> We look forward to reviewing your application and will contact you with a decision soon</font></h2> </div>
+<font size="4px"> We look forward to reviewing your application and will contact you with a decision soon</font></h2></div>
+<div style="width: 100px; margin: 40px auto 0 auto;">
+<form action="index.php"> 
+	<button type="submit" name="submit" class="btn btn-default">&nbsp;Home</button>
+</form> 
+</div>
 <br>
 <br>
 <br>
