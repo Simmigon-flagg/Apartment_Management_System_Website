@@ -96,8 +96,9 @@ white-space: nowrap;
 
 #container img {display: inline-block; margin: 0 100px;}
 
-.div1 {
-    width: 300px;
-    height: 100px;
-    border: 1px solid blue;
+#myDIV {
+    background-color:lightblue;
+    width:200px;
+    height:100px;
+    opacity:0.4;
 }
