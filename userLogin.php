@@ -26,11 +26,6 @@
 <<<<<<< HEAD
 <p id="centerHeader"><font face="calibri" size="10px" color = "black"><b>WELCOME HOME</font></b></font></p>
 
-=======
-<h2><p id="centerHeader"><font face="luxury-platinum" color= "black"> Welcome Home </h2> </p>
->>>>>>> origin/master
-	<div class="search-groups">
-	</div>
 	</div>
 	<br>
 	<br/><br/>
