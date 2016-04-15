@@ -2,7 +2,16 @@
 //include('session.php');
 //echo 'Welcome, ' .$login_session , '!';          //for testing. prints user's first name
 ?>
-
+ <body> <!--background= "Images/userlog3.jpg"--> 
+   <style>
+   body{
+     background: url(Images/userlog3.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+   }
+   </style>
 <html>
 <head>
 <title>My First Website</title>
@@ -13,7 +22,7 @@
 		<div style="width: 700px; margin: 50px auto 0 auto;">
 <div id = "applyNow">
 <!-- <h2><p id="centerHeader"><font color= "black"> <a href = "logout.php">Sign Out</a></p></h2> -->
-<h2><p id="centerHeader"><font color= "black"> Welcome Home </h2> </p>
+<h2><p id="centerHeader"><font face="luxury-platinum" color= "black"> Welcome Home </h2> </p>
 	<div class="search-groups">
 	</div>
 	</div>
@@ -44,7 +53,7 @@
       <div class="col-sm-4">
         <div class="thumbnail"
  <a class="btn"><strong>Maintenance</strong></a><br>
- <img src = "Images/blue_button.jpg" alt="Maintenance Request " width="100" height="100">
+ <img src = "Images/maintenance.png" alt="Maintenance Request " width="100" height="100">
 <p><a class="btn" href="addNewRequest.php"> <button class="btn">Add New Request</button> </a></p>
 <p><a class="btn" href="viewMaintenanceHistory.php"> <button class="btn">View Maintenance History</button></a></p>
 </div>
