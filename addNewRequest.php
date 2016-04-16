@@ -2,7 +2,14 @@
 //var_dump($_REQUEST); 			//remove
 
 ?>
-
+<script language="JavaScript">
+function CountLeft(field, count, max) {
+	if (field.value.length > max)
+	field.value = field.value.substring(0, max);
+	else
+	count.value = max - field.value.length;
+}
+</script>
 <br><center><h1>Maintenance Request</h1></center>
 <div style="width: 500px; margin: 40px auto 0 auto;">
 <form role="form" method="POST" action="">
@@ -28,7 +35,8 @@
   </div> 
   <div class="form-group">
   <label for="description">Description (limit 250 characters):</label>
-   <textarea rows="4" cols="50" class="form-control" name="description" maxlength="250"></textarea>
+   <textarea rows="4" cols="50" class="form-control" name="description" maxlength="250" onkeydown="CountLeft(this.form.description, this.form.left,250);" onkeyup="CountLeft(this.form.description,this.form.left,250);"></textarea>
+	<div align="right">Characters left: <input readonly type="text" name="left" size="1" maxlength="3" value="250"></div>
 	</div>
 	<div>
 	<label for "vendoraccess">Vendor Access to the Premises (Pick one option):</label><br>

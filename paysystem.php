@@ -12,7 +12,7 @@
 		
 <h1><p id="centerHeader"><font color= "black"> View Pay System</font></p></h1>
 <h3> Your rent for this month is:<h3> <form> $
-<input type="text">
+<input readonly type="text">
 </form>
 <br>
 <a class="btn" href="payInformation.php"> <button class="btn"><h4>Proceed to complete the payment<h4></button> </a>

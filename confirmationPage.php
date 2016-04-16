@@ -22,7 +22,11 @@ include("header.php");
 	<meta name="author" content="your name" />
 	<meta name="description" content="" />
 		<link rel="stylesheet" href="styles/style.css" type="text/css" />
-
+        <meta http-equiv="refresh" content="10;url=index.php" />
+    <body>
+        <center><h5>Redirecting you in 10 seconds...</h5></center>
+    </body>
+</html>
 <div style="width: 160px; margin: 40px auto 0 auto;">
  <img src="images/checkmark.jpg" alt="check" width="150" height="150">
 </div>
