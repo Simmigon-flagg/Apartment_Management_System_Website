@@ -8,6 +8,7 @@ session_start();
 }*/
 include_once("data/dbConnect.php");
 //$firstNameErr = $lastNameErr = $emailErr = $pwdErr = $pwdConfirmErr "";
+$firstname = $lastname = $email = $bday = $pass = $passConfirm = "";
 $invalid = $passwordErr = $existing = "";
 
 if(isset($_POST['submit']))
@@ -47,6 +48,7 @@ if(isset($_POST['submit']))
 		}
 	}
 }
+
 ?>
 
 <html>
@@ -66,39 +68,19 @@ if(isset($_POST['submit']))
 <form role="form" method="POST" action="">
   <div class="form-group">
     <label for="firstName">First Name:</label>
-    <input type="firstName" class="form-control" name="firstName"><br>
+    <input type="firstName" class="form-control" name="firstName" value="<?php if(isset($_POST['submit'])) echo $_POST['firstName']; ?>"><br>
   <div class="form-group">
     <label for="lastName">Last Name:</label>
-    <input type="lastName" class="form-control" name="lastName">
+    <input type="lastName" class="form-control" name="lastName" value="<?php if(isset($_POST['submit'])) echo $_POST['lastName']; ?>">
   </div>
- <!-- <div class="form-group">
-    <label for="address">Current Address:</label>
-    <input type="address" class="form-control" name="address">
-   </div>
-     <div class="form-group">
-    <label for="city">City:</label>
-    <input type="city" class="form-control" name="city">
-   </div>
-     <div class="form-group">
-    <label for="state">State:</label>
-    <input type="state" class="form-control" name="state">
-   </div>
-     <div class="form-group">
-    <label for="zip">Zip:</label>
-    <input type="zip" class="form-control" name="zip">
-   </div>
- <div class="form-group">
-    <label for="phone">Phone Number:</label>
-    <input type="phone" class="form-control" name="phone">
-  </div> -->
   <div class="form-group">
     <label for="email">Email address:</label>
-    <input type="email" class="form-control" name="email">
+    <input type="email" class="form-control" name="email" value="<?php if(isset($_POST['submit'])) echo $_POST['email']; ?>">
   </div>
     </div>
        <div class="form-group">
     <label for="bday">Date of birth: </label>
-    <input type="date" class="form-control" name="bday">
+    <input type="date" class="form-control" name="bday" value="<?php if(isset($_POST['submit'])) echo $_POST['bday']; ?>">
   </div>
   <div class="form-group">
     <label for="pwd">Password:</label>

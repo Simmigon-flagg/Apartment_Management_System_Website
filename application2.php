@@ -68,75 +68,77 @@ if(isset($_POST['submit'])){
 <form role="form" method="POST" action="">
   <div class="form-group">
     <label for="address">Current Address:</label>
-    <input type="address" class="form-control" name="address">
+    <input type="address" class="form-control" name="address" value="<?php if(isset($_POST['submit'])) echo $_POST['address']; ?>">
    </div>
      <div class="form-group">
     <label for="city">City:</label>
-    <input type="city" class="form-control" name="city">
+    <input type="city" class="form-control" name="city" value="<?php if(isset($_POST['submit'])) echo $_POST['city']; ?>">
    </div>
      <div class="form-group">
     <label for="state">State/Province/Region:</label>
-    <input type="state" class="form-control" name="state">
+    <input type="state" class="form-control" name="state" value="<?php if(isset($_POST['submit'])) echo $_POST['state']; ?>">
    </div>
      <div class="form-group">
     <label for="zip">Zip/Postal Code:</label>
-    <input type="zip" class="form-control" name="zip">
+    <input type="zip" class="form-control" name="zip" value="<?php if(isset($_POST['submit'])) echo $_POST['zip']; ?>">
    </div>
  <div class="form-group">
    <label for="phone">Phone Number: </label>
-    <input type="phone" class="form-control" name="phone">
+    <input type="phone" class="form-control" name="phone" value="<?php if(isset($_POST['submit'])) echo $_POST['phone']; ?>">
   </div>
   <div class="form-inline">
    <label for="ssn">Social Security Number: </label><br>
     <div class="form-group">
-    <input type="ssn" class="form-control" name="ssn1" size="2" maxlength="3"> -
-	<input type="text" class="form-control" name="ssn2" size="2" maxlength="2"> -
-	<input type="text" class="form-control" name="ssn3" size="2" maxlength="4">
+    <input type="ssn" class="form-control" name="ssn1" size="2" maxlength="3" value="<?php if(isset($_POST['submit'])) echo $_POST['ssn1']; ?>"> -
+	<input type="text" class="form-control" name="ssn2" size="2" maxlength="2" value="<?php if(isset($_POST['submit'])) echo $_POST['ssn2']; ?>"> -
+	<input type="text" class="form-control" name="ssn3" size="2" maxlength="4" value="<?php if(isset($_POST['submit'])) echo $_POST['ssn3']; ?>">
 	
 </div>
 </div>
 <div class="form-group">
    <label for="employer">Employer: </label>
-    <input type="employer" class="form-control" name="employer">
+    <input type="employer" class="form-control" name="employer" value="<?php if(isset($_POST['submit'])) echo $_POST['employer']; ?>">
   </div>
 <div class="form-group">
    <label for="job">Job Title: </label>
-    <input type="job" class="form-control" name="job">
+    <input type="job" class="form-control" name="job" value="<?php if(isset($_POST['submit'])) echo $_POST['job']; ?>">
   </div>
   
   <div class="form-group">
    <label for="income">Monthly Gross Income </label>
-    <input type="income" class="form-control" name="income">
+    <input type="income" class="form-control" name="income" value="<?php if(isset($_POST['submit'])) echo $_POST['income']; ?>">
   </div>
        <div class="form-group">
     <label for="movein">Move in day: </label>
-    <input type="date" class="form-control" name="movein">
+    <input type="date" class="form-control" name="movein" value="<?php if(isset($_POST['submit'])) echo $_POST['movein']; ?>">
   </div>
   <div class="form-group">
  <label for="location">Apartment Location: </label>  
-  <select class="form-control" id="location">
+  <select class="form-control" name="location">
   <option disabled selected>Choose one...</option>
-  <option value="downtown">Luxe Downtown</option>
-  <option value="midtown">Luxe Midtown</option>
-  <option value="buckhead">Luxe Buckhead</option>
+  <option value="downtown" <?php if(isset($_POST['submit'])) if($_POST['location'] == 'downtown') echo 'selected="selected"'; ?>>Luxe Downtown</option>
+  <option value="midtown" <?php if(isset($_POST['submit'])) if($_POST['location'] == 'midtown') echo 'selected="selected"'; ?>>Luxe Midtown</option>
+  <option value="buckhead" <?php if(isset($_POST['submit'])) if($_POST['location'] == 'buckhead') echo 'selected="selected"'; ?>>Luxe Buckhead</option>
   </select> 
   </div>
  <div class="form-group">
  <label for="bedrooms">Number of bedrooms: </label>  
-  <select class="form-control" id="bedrooms">
-  <option value="volvo">1</option>
-  <option value="saab">2</option>
-  <option value="opel">3</option>
-  <option value="vauxhall">4</option>
+  <select class="form-control" name="bedrooms">
+  <option disabled selected>Choose one...</option>
+  <option value="volvo" <?php if(isset($_POST['submit'])) if($_POST['bedrooms'] == 'volvo') echo 'selected="selected"'; ?>>1</option>
+  <option value="saab" <?php if(isset($_POST['submit'])) if($_POST['bedrooms'] == 'saab') echo 'selected="selected"'; ?>>2</option>
+  <option value="opel" <?php if(isset($_POST['submit'])) if($_POST['bedrooms'] == 'opel') echo 'selected="selected"'; ?>>3</option>
+  <option value="vauxhall" <?php if(isset($_POST['submit'])) if($_POST['bedrooms'] == 'vauxhall') echo 'selected="selected"'; ?>>4</option>
   </select> 
   </div>
 <div class="form-group">
  <label for="bathrooms">Number of Bathrooms: </label>  
-  <select class="form-control" id="bedrooms">
-  <option value="volvo">1</option>
-  <option value="saab">2</option>
-  <option value="opel">3</option>
-  <option value="vauxhall">4</option>
+  <select class="form-control" name="bathrooms">
+  <option disabled selected>Choose one...</option>
+  <option value="volvo" <?php if(isset($_POST['submit'])) if($_POST['bathrooms'] == 'volvo') echo 'selected="selected"'; ?>>1</option>
+  <option value="saab" <?php if(isset($_POST['submit'])) if($_POST['bathrooms'] == 'saab') echo 'selected="selected"'; ?>>2</option>
+  <option value="opel" <?php if(isset($_POST['submit'])) if($_POST['bathrooms'] == 'opel') echo 'selected="selected"'; ?>>3</option>
+  <option value="vauxhall" <?php if(isset($_POST['submit'])) if($_POST['bathrooms'] == 'vauxhall') echo 'selected="selected"'; ?>>4</option>
   </select>
 </div>
   <button type="submit" class="btn btn-default" name="submit">Submit</button>
