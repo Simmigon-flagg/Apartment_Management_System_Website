@@ -1,4 +1,44 @@
-<?php include_once("userHeader.php");?>
-<h1>View Add new Request</h1>
+<?php include_once("userHeader.php");
+//var_dump($_REQUEST); 			//remove
+
+?>
+
+<br><center><h1>Maintenance Request</h1></center>
+<div style="width: 500px; margin: 40px auto 0 auto;">
+<form role="form" method="POST" action="">
+   <div class="form-group">
+ <label for="type">Type: </label>  
+  <select class="form-control" name="type">
+  <option disabled selected>Choose one...</option>
+  <option value="general">General</option>
+  <option value="water">Water</option>
+  <option value="aircon">A/C</option>
+  </select> 
+  </div> 
+     <div class="form-group">
+ <label for="location">Location: </label>  
+  <select class="form-control" name="location">
+  <option disabled selected>Choose one...</option>
+  <option value="bathroom">Bathroom</option>
+  <option value="kitchen">Kitchen</option>
+  <option value="livingroom">Living Room</option>
+  <option value="bedroom">Bedroom</option>
+  <option value="other">Other</option>
+  </select> 
+  </div> 
+  <div class="form-group">
+  <label for="description">Description (limit 250 characters):</label>
+   <textarea rows="4" cols="50" class="form-control" name="description" maxlength="250"></textarea>
+	</div>
+	<div>
+	<label for "vendoraccess">Vendor Access to the Premises (Pick one option):</label><br>
+  <input type="radio" name="access" value="present" checked> I want to be present for the appointment.<br>
+  <input type="radio" name="access" value="notpresent"> Vendor has my permission to enter home to complete authorized repairs.<br>
+	</div>
+	<div><br>
+  <button type="submit" class="btn btn-default" name="submit">Submit</button>
+	</div>
+</form>
+</div>
 <?php include_once("footer.php");?>
 	
