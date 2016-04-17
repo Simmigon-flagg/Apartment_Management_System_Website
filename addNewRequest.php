@@ -1,6 +1,5 @@
 <?php include_once("userHeader.php");
 //var_dump($_REQUEST); 			//remove
-session_start();
 include_once("data/dbConnect.php");
 $type = $location = $description = $invalid = "";
 
@@ -15,14 +14,12 @@ if(isset($_POST['submit'])) {
 		
 		if(mysqli_query($conn,"INSERT INTO maintenance(iduser, type, description, location) VALUES('$login_session','$type','$description','$location')")){
 						
-						header("location:application2.php");
+						header("location:userLogin.php");
 
-				 }else{
-					 echo mysqli_error($conn);
-				  ?>
-						<script>alert('Error while registering you...');</script>
-						<?php
-				 }
+		}else{
+			echo mysqli_error($conn);
+			?><script>alert('Error while registering you...');</script><?php
+		}
 	}
 }
 ?>
@@ -35,31 +32,32 @@ function CountLeft(field, count, max) {
 }
 </script>
 <br><center><h1>Maintenance Request</h1></center>
+<center><b><font color = "red"><?php echo $invalid; ?></font></b></center>
 <div style="width: 500px; margin: 40px auto 0 auto;">
 <form role="form" method="POST" action="">
    <div class="form-group">
  <label for="type">Type: </label>  
   <select class="form-control" name="type">
   <option disabled selected>Choose one...</option>
-  <option value="general">General</option>
-  <option value="water">Water</option>
-  <option value="aircon">A/C</option>
+  <option value="general" <?php if(isset($_POST['submit'])) if($_POST['type'] == 'general') echo 'selected="selected"'; ?>>General</option>
+  <option value="water" <?php if(isset($_POST['submit'])) if($_POST['type'] == 'water') echo 'selected="selected"'; ?>>Water</option>
+  <option value="aircon" <?php if(isset($_POST['submit'])) if($_POST['type'] == 'aircon') echo 'selected="selected"'; ?>>A/C</option>
   </select> 
   </div> 
      <div class="form-group">
  <label for="location">Location: </label>  
   <select class="form-control" name="location">
   <option disabled selected>Choose one...</option>
-  <option value="bathroom">Bathroom</option>
-  <option value="kitchen">Kitchen</option>
-  <option value="livingroom">Living Room</option>
-  <option value="bedroom">Bedroom</option>
-  <option value="other">Other</option>
+  <option value="bathroom" <?php if(isset($_POST['submit'])) if($_POST['location'] == 'bathroom') echo 'selected="selected"'; ?>>Bathroom</option>
+  <option value="kitchen" <?php if(isset($_POST['submit'])) if($_POST['location'] == 'kitchen') echo 'selected="selected"'; ?>>Kitchen</option>
+  <option value="livingroom" <?php if(isset($_POST['submit'])) if($_POST['location'] == 'livingroom') echo 'selected="selected"'; ?>>Living Room</option>
+  <option value="bedroom" <?php if(isset($_POST['submit'])) if($_POST['location'] == 'bedroom') echo 'selected="selected"'; ?>>Bedroom</option>
+  <option value="other" <?php if(isset($_POST['submit'])) if($_POST['location'] == 'other') echo 'selected="selected"'; ?>>Other</option>
   </select> 
   </div> 
   <div class="form-group">
   <label for="description">Description (limit 250 characters):</label>
-   <textarea rows="4" cols="50" class="form-control" name="description" maxlength="250" onkeydown="CountLeft(this.form.description, this.form.left,250);" onkeyup="CountLeft(this.form.description,this.form.left,250);"></textarea>
+   <textarea rows="4" cols="50" class="form-control" name="description" maxlength="250" onkeydown="CountLeft(this.form.description, this.form.left,250);" onkeyup="CountLeft(this.form.description,this.form.left,250);" ><?php if(isset($_POST['submit'])) echo $_POST['description']; ?></textarea>
 	<div align="right">Characters left: <input readonly type="text" name="left" size="1" maxlength="3" value="250"></div>
 	</div>
 	<div>
