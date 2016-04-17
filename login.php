@@ -9,16 +9,19 @@
    if(isset($_POST['submit'])) {
       // username and password sent from form 
 	   
-      //$myusername = mysqli_real_escape_string($conn,$_POST['username']);	//uncomment later
-      //$mypassword = mysqli_real_escape_string($conn,$_POST['pwd']); 		//uncomment later
+      $myusername = mysqli_real_escape_string($conn,$_POST['username']);	//uncomment later
+      $mypassword = mysqli_real_escape_string($conn,$_POST['pwd']); 		//uncomment later
 	  
-	  $myusername = 'admin@admin.com'; $mypassword = 'admin';		//temporary. remove later
+	  //$myusername = 'admin@admin.com'; $mypassword = 'admin';		//temporary. remove later
 	 
       $sql = "SELECT iduser FROM user WHERE userName = '$myusername' AND pass = '$mypassword'";
       $result = mysqli_query($conn,$sql);
       $row = mysqli_fetch_array($result,MYSQLI_ASSOC);
+	  $user_id = $row['iduser'];
       //$active = $row['active'];
-      
+	  
+	  $accepted = mysqli_fetch_array(mysqli_query($conn,"SELECT accepted FROM applicant WHERE iduser = '$user_id'"),MYSQLI_ASSOC)['accepted'];
+	  
       $count = mysqli_num_rows($result);
       
       // If result matched $myusername and $mypassword, table row must be 1 row
@@ -34,6 +37,11 @@
       }else {
          $invalid = "Your Login Name or Password is invalid";
       }
+	  
+	  if($accepted != "1"){			//if user hasn't been accepted, they cannot access website
+		  session_destroy();
+		  header("location:confirmationPage.php");
+	  }
    }
  
 ?>

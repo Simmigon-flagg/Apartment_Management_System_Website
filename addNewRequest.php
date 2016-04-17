@@ -1,6 +1,30 @@
 <?php include_once("userHeader.php");
 //var_dump($_REQUEST); 			//remove
+session_start();
+include_once("data/dbConnect.php");
+$type = $location = $description = $invalid = "";
 
+if(isset($_POST['submit'])) {
+	if(empty($_POST['type']) || empty($_POST['location']) || empty($_POST['description']) ){
+		$invalid = "All fields are required";
+	}else{
+		$type = mysqli_real_escape_string($conn,$_POST['type']);
+		$location = mysqli_real_escape_string($conn,$_POST['location']);
+		$description = mysqli_real_escape_string($conn,$_POST['description']);
+		$access = mysqli_real_escape_string($conn,$_POST['access']);
+		
+		if(mysqli_query($conn,"INSERT INTO maintenance(iduser, type, description, location) VALUES('$login_session','$type','$description','$location')")){
+						
+						header("location:application2.php");
+
+				 }else{
+					 echo mysqli_error($conn);
+				  ?>
+						<script>alert('Error while registering you...');</script>
+						<?php
+				 }
+	}
+}
 ?>
 <script language="JavaScript">
 function CountLeft(field, count, max) {

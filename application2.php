@@ -39,7 +39,7 @@ if(isset($_POST['submit'])){
 		 $job = mysqli_real_escape_string($conn,$_POST['job']);
 		 $income = mysqli_real_escape_string($conn,$_POST['income']);
 		 
-		 if(mysqli_query($conn,"INSERT INTO applicant(iduser, socialSecurity, streetAddress, City, Zip, phoneNumber, employedBy, JobTitle, monthlyGrossPay) VALUES('$login_session','$ssn','$address','$city','$zip','$phone','$employer','$job','$income')")){
+		 if(mysqli_query($conn,"INSERT INTO applicant(iduser, socialSecurity, streetAddress, City, state, Zip, phoneNumber, employedBy, JobTitle, monthlyGrossPay) VALUES('$login_session','$ssn','$address','$city','$state','$zip','$phone','$employer','$job','$income')")){
 					 header("location:confirmationPage.php");
 
 		 }else{
