@@ -69,7 +69,7 @@ include_once('session.php');
       </ul>
       <ul class="nav navbar-nav navbar-right">
 	 
-        <li><a href="userLogin.php"> Welcome back, <?php echo $login_firstName;  ?>!</a></li>
+        <li><a href="userLogin.php"> Welcome back<?php echo $login_firstName;  ?>!</a></li>
 		 <li><a href="logout.php"><span class="glyphicon glyphicon-log-in"></span> Log out</a></li>
       </ul>
     </div>
