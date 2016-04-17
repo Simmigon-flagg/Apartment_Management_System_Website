@@ -11,11 +11,11 @@
 <div id = "applyNow">
 		
 <h1><p id="centerHeader"><font color= "black"> View Pay System</font></p></h1>
-<h3> Your rent for this month is:<h3> <form> $
-<input readonly type="text">
+<h3> Your rent for this month is:<h3> <form> <h2> $1,500 </h2>
+<!-- <input readonly type="text"> -->
 </form>
 <br>
-<a class="btn" href="payInformation.php"> <button class="btn"><h4>Proceed to complete the payment<h4></button> </a>
+<a class="btn" href="payInformation.php"> <button class="btn"><h5>Proceed to complete the payment<h5></button> </a>
 
 
 <?php include("footer.php");?>
