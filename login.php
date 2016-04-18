@@ -68,13 +68,13 @@
 
 <p>
 <input class="w3-input" type="email" name="username" >
-<label for="username">First Name</label>
+<label for="username">Username</label>
 <p class="hidden"></p>
 </p>
 
 <p>      
 <input class="w3-input" type="password" name="pwd">
-<label label for="pwd">Last Name</label></p>
+<label label for="pwd">Password</label></p>
 
  </div>
  
