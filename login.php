@@ -35,7 +35,7 @@
 		 
          header("location:userLogin.php");
       }else {
-         $invalid = "Your Login Name or Password is invalid";
+         $invalid = "Your Username or Password is invalid";
       }
 	  
 	  if($accepted != "1"){			//if user hasn't been accepted, they cannot access website
@@ -43,7 +43,7 @@
 		  header("location:confirmationPage.php");
 	  }
    }
- 
+ mysqli_close($conn);
 ?>
 <html>
 <head>

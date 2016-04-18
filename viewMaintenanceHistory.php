@@ -27,7 +27,7 @@ $result_maintenance = mysqli_query($conn,"SELECT * FROM maintenance WHERE iduser
       </tr>
     </thead>
     <tbody>
-	<?php 
+<?php 
 	
 	while($maintenance_row = $result_maintenance->fetch_assoc()){
 		$date = explode(" ", $maintenance_row['date']);
@@ -47,7 +47,8 @@ $result_maintenance = mysqli_query($conn,"SELECT * FROM maintenance WHERE iduser
 		</tr>';
 		$count++;
 	}
-	?>
+mysqli_close($conn);
+?>
 
     </tbody>
   </table>

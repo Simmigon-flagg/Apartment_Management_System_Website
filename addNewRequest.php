@@ -22,6 +22,7 @@ if(isset($_POST['submit'])) {
 		}
 	}
 }
+mysqli_close($conn);
 ?>
 <script language="JavaScript">
 function CountLeft(field, count, max) {

@@ -49,6 +49,7 @@ if(isset($_POST['submit'])){
 				<?php
 		 }
 	}
+	mysqli_close($conn);
 }
 //session_destroy();		//testing
 ?>

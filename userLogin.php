@@ -1,4 +1,5 @@
 <?php include("userHeader.php");
+mysqli_close($conn);
 //include('session.php');
 //echo 'Welcome, ' .$login_session , '!';          //for testing. prints user's first name
 ?>
