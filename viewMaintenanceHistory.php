@@ -3,52 +3,46 @@
 $count =1;
 $result_maintenance = mysqli_query($conn,"SELECT * FROM maintenance WHERE iduser = $login_session");
    
-$maintenance_rows = mysqli_fetch_array($result_maintenance,MYSQLI_ASSOC);
+//$maintenance_rows = mysqli_fetch_array($result_maintenance,MYSQLI_ASSOC);
 //$maintenance_row = $result_maintenance->fetch_assoc();
-
-
-
 
 ?>
 
-<center><h1>View Maintenance History</h1></center>
-
+<br>
+<br>
 <body>
 
 <div class="container">
-  <h2>Striped Rows</h2>
-  <p>The .table-striped class adds zebra-stripes to a table:</p>            
+  <h1>View Maintenance History</h1>
+  <p></p>            
   <table class="table table-striped">
     <thead>
       <tr>
         <th>Number</th>
         <th>Type</th>
         <th>Location</th>
-		<th>Date</th>
+		<th>Date/time</th>
+		<th>Completed</th>
 		<th>Description</th>
       </tr>
     </thead>
     <tbody>
-	<?php /*
-	foreach ((array) $maintenance_rows as $value) {
-		echo $value;
-		//echo $value;
-		
-		echo 
-		'<tr>
-			<td>John</td>
-			<td>Doe</td>
-			<td>john@example.com</td>
-		</tr>';
-	} */
+	<?php 
 	
 	while($maintenance_row = $result_maintenance->fetch_assoc()){
+		$date = explode(" ", $maintenance_row['date']);
+		$time = (explode(":",$date[1])[0] - 4) . ":" . explode(":",$date[1])[1] . ":" . explode(":",$date[1])[2];
+		$completed = "No";
+		if($maintenance_row['completed'] == 1){
+			$completed = "Yes";
+		}
 		echo 
 		'<tr>
 			<td>'.$count.'</td>
 			<td>'.$maintenance_row['type'].'</td>
 			<td>'.$maintenance_row['location'].'</td>
-			<td>'.$maintenance_row['date'].'</td>
+			<td class="col-md-1">'.$date[0]. '<br>' . $time.'</td>
+			<td>'.$completed.'</td>
 			<td>'.$maintenance_row['description'].'</td>
 		</tr>';
 		$count++;

@@ -42,6 +42,7 @@ function CountLeft(field, count, max) {
   <option value="general" <?php if(isset($_POST['submit'])) if($_POST['type'] == 'general') echo 'selected="selected"'; ?>>General</option>
   <option value="water" <?php if(isset($_POST['submit'])) if($_POST['type'] == 'water') echo 'selected="selected"'; ?>>Water</option>
   <option value="aircon" <?php if(isset($_POST['submit'])) if($_POST['type'] == 'aircon') echo 'selected="selected"'; ?>>A/C</option>
+  <option value="other" <?php if(isset($_POST['submit'])) if($_POST['type'] == 'other') echo 'selected="selected"'; ?>>Other</option>
   </select> 
   </div> 
      <div class="form-group">
