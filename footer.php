@@ -1,3 +1,4 @@
+
  <hr>
 	   <h3></h3>
       <p></p>
@@ -16,7 +17,7 @@
 	<div id = "applyNow">
    <body> <!--background= "Images/br.jpg"--> 
 
-  <footer id = "centerHeader" style="position: relative; bottom: 0px; width: 100%; height: 50px; background-color: grey;">
+  <footer id = "centerHeader" style="position: fixed; bottom:0; 0px; width: 100%; height: 50px; background-color: grey;">
   <p>0<sup>th</sup> Team Project</p>
   </footer>
   

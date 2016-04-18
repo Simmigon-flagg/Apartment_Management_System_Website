@@ -25,12 +25,17 @@
       height: 100%;
     }
     
+	body {
+		padding-bottom:50px;   /* Height of the footer */
+	}
+	
     /* Set black background color, white text and some padding */
     footer {
       background-color: #555;
       color: white;
       padding: 15px;
     }
+	
     
     /* On small screens, set height to 'auto' for sidenav and grid */
     @media screen and (max-width: 767px) {
