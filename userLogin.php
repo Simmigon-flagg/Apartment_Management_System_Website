@@ -3,24 +3,14 @@ mysqli_close($conn);
 //include('session.php');
 //echo 'Welcome, ' .$login_session , '!';          //for testing. prints user's first name
 ?>
- <body> 
-   
-<style>
-   body{
-     background: url(Images/userlog4.jpg) no-repeat center center fixed; 
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-   } 
-   </style> 
+
 <html>
-<head>
+
 <title>My First Website</title>
 	<meta name="author" content="your name" />
 	<meta name="description" content="" />
 		<link rel="stylesheet" href="styles/style.css" type="text/css" />
-		<div style="width: 700px; margin: 50px auto 0 auto;">	
+		<div style="width: 800px; margin: 50px auto 0 auto;">	
 <div id = "applyNow">
 <!-- <h2><p id="centerHeader"><font color= "black"> <a href = "logout.php">Sign Out</a></p></h2> -->
 
@@ -43,7 +33,7 @@ mysqli_close($conn);
 	
 <div class="row text-center" >
       <div class="col-sm-4">
-        <div class="thumbnail"
+        <div class="thumbnail">
 		 <a class="btn"><font face="calibri" size="5px"><b><u>Rent</u></b></font></a><br><br>
  <img src = "Images/rentMoney.jpg" alt="Pay Rent" width="100" height="100">
 <p><a class="btn" href="paySystem.php"> <button class="btn">Pay System</button> </a></p>
@@ -52,9 +42,9 @@ mysqli_close($conn);
 </div>	
 </div>
 
-<div class="row text-center">
+
       <div class="col-sm-4">
-        <div class="thumbnail"
+        <div class="thumbnail">
  <a class="btn"><font face="calibri" size="5px"><b><u>Utilities</u></b></font></a><br><br>
  <img src = "Images/utility.jpg" alt="Paris" width="134" height="134">
 <p><a class="btn" href="payThirdParty.php"> <button class="btn">Pay Third party</button> </a></p>
@@ -63,9 +53,9 @@ mysqli_close($conn);
 </div>
 </div>
 
-<div class="row text-center">
+
       <div class="col-sm-4" >
-        <div class="thumbnail" 
+        <div class="thumbnail">
  <a class="btn"><font face="calibri" size="5px"><b><u>Maintenance</u></b></font></a><br><br>
  <img src = "Images/Maintenance.png" alt="Maintenance Request " width="70" height="70">
 
@@ -75,7 +65,7 @@ mysqli_close($conn);
 </div>
 </div>	
 </div>
-
+</html>
 <!-- /*$favcolor = "red";
 
 switch ($favcolor) {
