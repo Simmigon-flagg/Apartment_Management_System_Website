@@ -64,27 +64,15 @@
 	<div id="main">
 	
 
-<<<<<<< HEAD
-<p>
-<input class="w3-input" type="email" name="username" >
-<label for="username">Username</label>
-<p class="hidden"></p>
-</p>
 
-<p>      
-<input class="w3-input" type="password" name="pwd">
-<label label for="pwd">Password</label></p>
-=======
 <form action="" method="POST" role="form">
   <div class="form-group">
-    <label for="username">Email address:</label>
+    <label for="username">Username:</label>
     <input type="email" class="form-control" name="username">
   </div>
   </div>
   <div class="form-group">
 <p class="hidden"></p>
->>>>>>> parent of f8be531... login page
-
     <label for="pwd">Password:</label>
     <input type="password" class="form-control" name="pwd">
   </div>
