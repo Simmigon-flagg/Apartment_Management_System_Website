@@ -1,6 +1,8 @@
 <?php
+include_once("header.php");
 session_start();
 include_once("data/dbConnect.php");
+require("PHPMailer-master/PHPMailerAutoload.php");
 
 //error_reporting(-1);
 //ini_set('display_errors', 'On');		//shows errors
@@ -33,16 +35,44 @@ if (isset($_POST["ForgotPassword"])) {
 		$password = hash('sha512', $salt.$userExists["userName"]);
 
 		// Create a url which we will direct them to reset their password
-		$pwrurl = "www.yoursitehere.com/reset_password.php?q=".$password;
+		$pwrurl = "www.yoursitehere.com/resetPassword.php?q=".$password;
 		
+		
+		$mail = new PHPMailer();
+
+		$mail->IsSMTP();  // telling the class to use SMTP
+		$mail->Host     = "smtp.gmail.com"; // SMTP server
+		$mail->Port = 587;
+		$mail->SMTPSecure = 'tls';
+		$mail->SMTPAuth = true;
+
+		$mail->From     = "forrestwong9@gmail.com";
+		$mail->Username   = "luxepropertiesatlanta@gmail.com";  // GMAIL username
+		$mail->Password   = "simmigon"; 
+		$mail->AddAddress("forrestwong9@gmail.com");
+		$mail->FromName = "Luxe Properties Atlanta";
+
+		$mail->Subject  = "First PHPMailer Message";
+		$mail->Body     = "Hi! \n\n This is my first e-mail sent through PHPMailer.";
+		$mail->WordWrap = 50;
+
+		if(!$mail->Send()) {
+		  echo 'Message was not sent.';
+		  echo 'Mailer error: ' . $mail->ErrorInfo;
+		} else {
+		  echo 'Message has been sent.';
+		}
+		
+		/*
 		// Mail them their key
 		$mailbody = "Dear user,\n\nIf this e-mail does not apply to you please ignore it. It appears that you have requested a password reset at our website www.yoursitehere.com\n\nTo reset your password, please click the link below. If you cannot click it, please paste it into your web browser's address bar.\n\n" . $pwrurl . "\n\nThanks,\nThe Administration";
 		mail($userExists["userName"], "apartmentrental.azurewebsites.net - Password Reset", $mailbody);
-		//ini_set('display_errors',1);
 		echo "Your password recovery key has been sent to your e-mail address.";
+		*/
 		
 	}
 	else
 		echo "No user with that e-mail address exists.";
 }
+include("footer.php");
 ?>

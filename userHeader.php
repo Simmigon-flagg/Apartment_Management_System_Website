@@ -24,6 +24,10 @@
       background-color: #f1f1f1;
       height: 100%;
     }
+	    
+	body {
+		padding-bottom:50px;   /* Height of the footer */
+	}
     
     /* Set black background color, white text and some padding */
     footer {
