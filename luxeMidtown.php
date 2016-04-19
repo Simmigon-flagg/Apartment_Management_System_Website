@@ -24,7 +24,7 @@
 <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
 <body>
 
-<div class="w3-content" style="max-width:1200px;position:relative">
+<div class="w3-content" style="max-width:900px;position:relative">
 
 <div class="w3-display-container mySlides">
   <img src="Images/LM1.jpg" style="width: 100%">
