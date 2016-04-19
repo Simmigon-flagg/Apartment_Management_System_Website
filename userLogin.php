@@ -34,7 +34,7 @@ mysqli_close($conn);
 <div class="row text-center" >
       <div class="col-sm-4">
         <div class="thumbnail">
-		 <a class="btn"><font face="calibri" size="5px"><b><u>Rent</u></b></font></a><br><br>
+		 <font face="calibri" size="5px"><b><u>Rent</u></b></font><br><br>
  <img src = "Images/rentMoney.jpg" alt="Pay Rent" width="100" height="100">
 <p><a class="btn" href="paySystem.php"> <button class="btn">Pay System</button> </a></p>
 <p><a class="btn" href="vpBillHistory.php"> <button class="btn">View/Print Bill History</button> </a></p>
@@ -45,7 +45,7 @@ mysqli_close($conn);
 
       <div class="col-sm-4">
         <div class="thumbnail">
- <a class="btn"><font face="calibri" size="5px"><b><u>Utilities</u></b></font></a><br><br>
+ <font face="calibri" size="5px"><b><u>Utilities</u></b></font><br><br>
  <img src = "Images/utility.jpg" alt="Paris" width="134" height="134">
 <p><a class="btn" href="payThirdParty.php"> <button class="btn">Pay Third party</button> </a></p>
 <!--<p><a class="btn" href="addNewUtility.php"> <button class="btn">Add New Utility</button></a></p> -->
@@ -56,7 +56,7 @@ mysqli_close($conn);
 
       <div class="col-sm-4" >
         <div class="thumbnail">
- <a class="btn"><font face="calibri" size="5px"><b><u>Maintenance</u></b></font></a><br><br>
+ <font face="calibri" size="5px"><b><u>Maintenance</u></b></font></a><br><br>
  <img src = "Images/Maintenance.png" alt="Maintenance Request " width="70" height="70">
 
 <p><a class="btn" href="addNewRequest.php"> <button class="btn">Add New Request</button> </a></p>

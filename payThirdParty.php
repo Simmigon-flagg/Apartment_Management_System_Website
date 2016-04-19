@@ -16,10 +16,11 @@
 <hr>
 <p><font face="calibri" size="5px">Internet and Cable providers </font>
 <ul style="list-style-type:disc">
-<p>&#8226 <a href="http://www.xfinity.com/internet-service.html"><font face="calibri" size="3px">&nbsp; Xfinity</a></p>
-<p>&#8226 <a href="http://www.directvdeals.com/directv-internet/">&nbsp; DirecTV Internet</a></p>
-<p>&#8226 <a href="https://www.mydish.com/internet">&nbsp; DISH Internet</a></p></font>
+<p>&#8226 <a href="http://www.xfinity.com/internet-service.html"><font face="calibri" size="5px">&nbsp; Xfinity</a></font></p>
+<p>&#8226 <a href="http://www.directvdeals.com/directv-internet/"><font face="calibri" size="5px">&nbsp; DirecTV Internet</a></font></p>
+<p>&#8226 <a href="https://www.mydish.com/internet"><font face="calibri" size="5px">&nbsp; DISH Internet</a></font></p>
 </ul>
+</div>
 </div>
 <?php include("footer.php");?>
 	
