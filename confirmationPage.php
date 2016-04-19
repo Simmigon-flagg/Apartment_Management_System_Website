@@ -1,4 +1,4 @@
-<?php
+?php
 include("header.php");
 /*   include('data/dbConnect.php');
    session_start();
