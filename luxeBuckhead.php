@@ -137,14 +137,14 @@ function showDivs(n) {
 
 <li>One, Two and Three bedroom floor-plans with spectacular city views</li>
 <li>Two 24 Hour Fitness Centers with Free Weights</li>
-<li>24- hour concierge</li>
-<li>3 Saline Pools</li>
+<li>Walking distance to Phipps Plaza, Lenos Square Mall and Buckhead financial District</li>
+<li>LuxeCafe with complimentary coffee bar and video gaming lounge</li>
 <li>Package Receiving</li>
 <li>100% Smoke Free Community</li>
-<li>4 Club lounges</li>
+<li>4 Club lounges with theatre like seats and screens</li>
 <li>Abundant courtyards and green spaces</li>
 <li>Bark Park</li>
-<li>Clifton Shuttle</li>
+<li>Complimentary Wi-Fi throughout common areas and pool deck</li>
 <li>Controlled Access Parking and Buildings</li>
 <li>Cyber Center with Meeting Space</li>
 </div>
