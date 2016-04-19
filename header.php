@@ -49,6 +49,9 @@
 	font-family: luxury-platinum; 
 	src: url('Images/luxury-platinum.otf');
 	} 
+	div {
+    font-family: luxury-platinum;
+}
   </style>
   
 </head>
