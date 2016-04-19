@@ -2,44 +2,6 @@
 mysqli_close($conn);
 
 //echo 'Welcome, ' .$login_session , '!';          //for testing. prints user's first name
-/*
-$to      = 'forrestwong9@gmail.com';
-$subject = 'the subject';
-$message = 'hello';
-$headers = 'From: webmaster@example.com' . "\r\n" .
-       'Reply-To: webmaster@example.com';
-
-mail($to, $subject, $message, $headers);
-
-
-*/
-
-require("PHPMailer-master/PHPMailerAutoload.php");
-
-$mail = new PHPMailer();
-
-$mail->IsSMTP();  // telling the class to use SMTP
-$mail->Host     = "smtp.gmail.com"; // SMTP server
-$mail->Port = 587;
-$mail->SMTPSecure = 'tls';
-$mail->SMTPAuth = true;
-
-$mail->From     = "forrestwong9@gmail.com";
-$mail->Username   = "luxepropertiesatlanta@gmail.com";  // GMAIL username
-$mail->Password   = "simmigon"; 
-$mail->AddAddress("forrestwong9@gmail.com");
-$mail->FromName = "Luxe Properties Atlanta";
-
-$mail->Subject  = "First PHPMailer Message";
-$mail->Body     = "Hi! \n\n This is my first e-mail sent through PHPMailer.";
-$mail->WordWrap = 50;
-
-if(!$mail->Send()) {
-  echo 'Message was not sent.';
-  echo 'Mailer error: ' . $mail->ErrorInfo;
-} else {
-  echo 'Message has been sent.';
-}
 
 ?>
 
