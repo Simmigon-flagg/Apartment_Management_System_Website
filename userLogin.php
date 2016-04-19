@@ -49,7 +49,7 @@ mysqli_close($conn);
       <div class="col-sm-4">
         <div class="thumbnail">
 		 <font face="calibri" size="5px"><b><u>Rent</u></b></font><br><br>
- <img src = "Images/payonlinebutton.png" alt="Pay Rent" width="140" height="140">
+ <img src = "Images/rentMoney.jpg" alt="Pay Rent" width="100" height="100">
 <p><a class="btn" href="paySystem.php"> <button class="btn">Pay System</button> </a></p>
 <p><a class="btn" href="vpBillHistory.php"> <button class="btn">View/Print Bill History</button> </a></p>
 <br>
