@@ -49,16 +49,7 @@
 	font-family: luxury-platinum; 
 	src: url('Images/luxury-platinum.otf');
 	} 
-@font-face {
-    font-family:luxury-platinum;
-    src:url('Images/luxury-platinum.otf');
-    src:url('Images/luxury-platinum.otf'#iefix') format('embedded-opentype'),
-            url('Images/luxury-platinum.woff') format('woff'),
-            url('Images/luxury-platinum..ttf') format('truetype'),
-            url('Images/luxury-platinum..svg#my-font') format('svg');
-    font-weight:normal;
-    font-style:normal;
-}
+
 }
   </style>
   
