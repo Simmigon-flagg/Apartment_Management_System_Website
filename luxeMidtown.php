@@ -134,7 +134,7 @@ function showDivs(n) {
 <div class='list_columns'>
 <div id="col">
 <ul>
-<font size= "3px";
+<font size= "3px";>
 
 <li>Two 24 Hour Fitness Centers with Free Weights</li>
 <li>Organic Luxury Grocery Store Earth Fare On Site</li>
@@ -143,7 +143,7 @@ function showDivs(n) {
 <li>100% Smoke Free Community</li>
 <li>4 Club lounges</li>
 <li>Abundant courtyards and green spaces</li>
-<li>Bark Park</li>
+<li>Private balconies with expansive views</li>
 <li>Clifton Shuttle</li>
 <li>Controlled Access Parking and Buildings</li>
 <li>Cyber Center with Meeting Space</li>
@@ -152,6 +152,9 @@ function showDivs(n) {
   </div>
 </div>
 </div>
+
+</div>
+<div id="Column2" style="float:left;width:300px;"></div>
 <br>
 <div style="width: 700px; margin: 50px auto 0 auto;">
 	<div id = "applyNow">

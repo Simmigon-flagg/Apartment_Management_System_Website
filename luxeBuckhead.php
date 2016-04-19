@@ -29,70 +29,70 @@
 <div class="w3-display-container mySlides">
   <img src="Images/LB2.jpg" style="width: 100%">
   <div class="w3-display-topleft w3-large w3-container w3-padding-hor-16 w3-black">
-    One Bedroom Living & Entertainment
-  </div>
-</div>
-
-<div class="w3-display-container mySlides">
-  <img src="Images/LB3.jpg" style="width:100%">
-  <div class="w3-display-topleft w3-large w3-container w3-padding-hor-16 w3-black">
-    One Bedroom Master Bedroom
-  </div>
-</div>
-
-<div class="w3-display-container mySlides">
-  <img src="Images/LB4.jpg" style="width:100%">
-  <div class="w3-display-topleft w3-large w3-container w3-padding-hor-16 w3-black">
-    One Bedroom Kitchen
+    Luxe Cafe
   </div>
 </div>
 
 <div class="w3-display-container mySlides">
   <img src="Images/LB5.jpg" style="width:100%">
   <div class="w3-display-topleft w3-large w3-container w3-padding-hor-16 w3-black">
-    One Bedroom Master Bath
+    One Bedroom: Kitchen
+  </div>
+</div>
+
+<div class="w3-display-container mySlides">
+  <img src="Images/LB4.jpg" style="width:100%">
+  <div class="w3-display-topleft w3-large w3-container w3-padding-hor-16 w3-black">
+    One Bedroom: Master
+  </div>
+</div>
+
+<div class="w3-display-container mySlides">
+  <img src="Images/LB1.jpg" style="width:100%">
+  <div class="w3-display-topleft w3-large w3-container w3-padding-hor-16 w3-black">
+    Luxe Lounge
   </div>
 </div>
 
 <div class="w3-display-container mySlides">
   <img src="Images/LB6.jpg" style="width:100%">
   <div class="w3-display-topleft w3-large w3-container w3-padding-hor-16 w3-black">
-    Two Bedroom Guest Bedroom
+    Neighborhood
   </div>
 </div>
 
 <div class="w3-display-container mySlides">
   <img src="Images/LB7.jpg" style="width:100%">
   <div class="w3-display-topleft w3-large w3-container w3-padding-hor-16 w3-black">
-    Luxe Sundeck Pool
+    Neighborhood
   </div>
 </div>
 
 <div class="w3-display-container mySlides">
   <img src="Images/LB8.jpg" style="width:100%">
   <div class="w3-display-topleft w3-large w3-container w3-padding-hor-16 w3-black">
-    Two Bedroom Living & Entertainment
+    Buckhead Shopping
   </div>
 </div>
 
 <div class="w3-display-container mySlides">
   <img src="Images/LB9.jpg" style="width:100%">
   <div class="w3-display-topleft w3-large w3-container w3-padding-hor-16 w3-black">
-    Two Bedroom Kitchen
+    Buckhead Shopping
   </div>
 </div>
 
 <div class="w3-display-container mySlides">
   <img src="Images/LD9.jpg" style="width:100%">
   <div class="w3-display-topleft w3-large w3-container w3-padding-hor-16 w3-black">
-    Luxe Fitness
+    Two Bedroom: Master
   </div>
 </div>
 
 <div class="w3-display-container mySlides">
-  <img src="Images/LM1bed.png" style="width:100%">
+  <img src="Images/LM1bed2.png" style="width:100%">
   <div class="w3-display-topleft w3-large w3-container w3-padding-hor-16 w3-black">
-    Ansley Floor-plan
+    Astoria Floor-plan
   </div>
 </div>
 
@@ -137,14 +137,14 @@ function showDivs(n) {
 
 <li>One, Two and Three bedroom floor-plans with spectacular city views</li>
 <li>Two 24 Hour Fitness Centers with Free Weights</li>
-<li>24- hour concierge</li>
-<li>3 Saline Pools</li>
+<li>Walking distance to Phipps Plaza, Lenos Square Mall and Buckhead financial District</li>
+<li>LuxeCafe with complimentary coffee bar and video gaming lounge</li>
 <li>Package Receiving</li>
 <li>100% Smoke Free Community</li>
-<li>4 Club lounges</li>
+<li>4 Club lounges with theatre like seats and screens</li>
 <li>Abundant courtyards and green spaces</li>
 <li>Bark Park</li>
-<li>Clifton Shuttle</li>
+<li>Complimentary Wi-Fi throughout common areas and pool deck</li>
 <li>Controlled Access Parking and Buildings</li>
 <li>Cyber Center with Meeting Space</li>
 </div>

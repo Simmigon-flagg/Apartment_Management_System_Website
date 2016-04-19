@@ -38,6 +38,7 @@ mysqli_close($conn);
 <h1><p id="centerHeader"><font color= "black"> <b> View Pay System<b></font></p></h1>
 
 <div style="width: 600px; margin: 50px auto 0 auto;">
+
 <h2><p id="centerHeader"><font color= "black"> You are currently residing at:<br> <?php echo $login_location . " " . $login_aptNumber ?><p id="centerHeader"><font color= "black"></h2> 
 <h3  style="color:white;"></h3>
 <h3> Your rent for April 2016 is:<h3> <form> 
@@ -49,6 +50,13 @@ mysqli_close($conn);
 </form>
 </div>
 </div>
+<h2><p id="centerHeader"><font color= "black"> <p id="centerHeader">Your rent for this month is:<font color= "black"></h2> 
+<h2> $1,500 </h2>
+<h3> You are currently residing in: LUXE Buckhead #3000 <h3> <form> 
+
+</form>
+<br>
+<a class="btn" href="payInformation.php"> <button class="btn"><h4>Make Payment<h4></button> </a>
 
 
 <?php include("footer.php");?>

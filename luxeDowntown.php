@@ -28,28 +28,28 @@
 <div class="w3-display-container mySlides">
   <img src="Images/LD2.jpg" style="width: 100%">
   <div class="w3-display-topleft w3-large w3-container w3-padding-hor-16 w3-black">
-    One Bedroom Living & Entertainment
+    One Bedroom: Living & Entertainment
   </div>
 </div>
 
 <div class="w3-display-container mySlides">
   <img src="Images/LD3.jpg" style="width:100%">
   <div class="w3-display-topleft w3-large w3-container w3-padding-hor-16 w3-black">
-    One Bedroom Master Bedroom
+    One Bedroom: Master Bedroom
   </div>
 </div>
 
 <div class="w3-display-container mySlides">
   <img src="Images/LD4.jpg" style="width:100%">
   <div class="w3-display-topleft w3-large w3-container w3-padding-hor-16 w3-black">
-    One Bedroom Kitchen
+    One Bedroom: Kitchen
   </div>
 </div>
 
 <div class="w3-display-container mySlides">
-  <img src="Images/LD4.jpg" style="width:100%">
+  <img src="Images/LD10.jpg" style="width:100%">
   <div class="w3-display-topleft w3-large w3-container w3-padding-hor-16 w3-black">
-    One Bedroom Master Bath
+    Luxe Fitness
   </div>
 </div>
 
@@ -84,7 +84,7 @@
 <div class="w3-display-container mySlides">
   <img src="Images/LD9.jpg" style="width:100%">
   <div class="w3-display-topleft w3-large w3-container w3-padding-hor-16 w3-black">
-    Luxe Fitness
+    Two Bedroom: Master
   </div>
 </div>
 
@@ -132,18 +132,18 @@ function showDivs(n) {
 <div class='list_columns'>
 <div id="col">
 <ul>
-<font size= "3px";
+<font size= "3px";>
 
-<li>One, Two and Three bedroom floor-plans with spectacular city views</li>
-<li>Two 24 Hour Fitness Centers with Free Weights</li>
-<li>24- hour concierge</li>
-<li>3 Saline Pools</li>
+<li>One, Two and Three bedroom floor-plans</li>
+<li>Floor to ceiling windows with breathtaking city views</li>
+<li>Elegant lobby with 24- hour concierge</li>
+<li>Whirlpool Energy Star stainless steel appliances</li>
 <li>Package Receiving</li>
 <li>100% Smoke Free Community</li>
 <li>4 Club lounges</li>
-<li>Abundant courtyards and green spaces</li>
-<li>Bark Park</li>
-<li>Clifton Shuttle</li>
+<li>Hardwood Flooring</li>
+<li>Secure entry and parking access</li>
+<li>Rooftop lounge with billiards and Large Screen TVs</li>
 <li>Controlled Access Parking and Buildings</li>
 <li>Cyber Center with Meeting Space</li>
 </div>
