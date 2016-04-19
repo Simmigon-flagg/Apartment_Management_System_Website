@@ -1,4 +1,16 @@
 <?php include("userHeader.php");
+   
+$login_aptNumber = "";
+$login_location = "";
+$result = mysqli_query($conn,"select * from apartmentlocation where iduser = '$login_session' ");
+$row = mysqli_fetch_array($result,MYSQLI_ASSOC);
+$count = mysqli_num_rows($result);
+
+if($count == 1) {
+	$login_aptNumber = "#" . $row['aptNumber'];
+	$login_location = $row['location'];
+}
+
 mysqli_close($conn);
 
 //echo 'Welcome, ' .$login_session , '!';          //for testing. prints user's first name
@@ -27,6 +39,7 @@ mysqli_close($conn);
    </style> 
 
 <p id="centerHeader"><font face="calibri" size="10px" color = "black"><b>WELCOME HOME</font></b></font></p>
+<h3  style="color:black;"><?php echo $login_location . " " . $login_aptNumber ?></h3>
 
 	</div>
 	<br>
