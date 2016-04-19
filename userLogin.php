@@ -19,9 +19,12 @@ require("PHPMailer-master/PHPMailerAutoload.php");
 $mail = new PHPMailer();
 
 $mail->IsSMTP();  // telling the class to use SMTP
-$mail->Host     = "Smtp.mail.yahoo.com"; // SMTP server
+$mail->Host     = "smtp.gmail.com"; // SMTP server
+$mail->Port = 587;
+$mail->SMTPSecure = 'tls';
+$mail->SMTPAuth = true;
 
-$mail->From     = "forrestbob2000@yahoo.com";
+$mail->From     = "forrestwong9@gmail.com";
 $mail->AddAddress("forrestwong9@gmail.com");
 $mail->FromName = "Luxe Properties Atlanta";
 
