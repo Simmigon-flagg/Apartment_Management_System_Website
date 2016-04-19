@@ -2,9 +2,9 @@
 session_start();
 include_once("data/dbConnect.php");
 
-error_reporting(-1);
-ini_set('display_errors', 'On');		//shows errors
-set_error_handler("var_dump");
+//error_reporting(-1);
+//ini_set('display_errors', 'On');		//shows errors
+//set_error_handler("var_dump");
 
 // Was the form submitted?
 if (isset($_POST["ForgotPassword"])) {
@@ -37,8 +37,8 @@ if (isset($_POST["ForgotPassword"])) {
 		
 		// Mail them their key
 		$mailbody = "Dear user,\n\nIf this e-mail does not apply to you please ignore it. It appears that you have requested a password reset at our website www.yoursitehere.com\n\nTo reset your password, please click the link below. If you cannot click it, please paste it into your web browser's address bar.\n\n" . $pwrurl . "\n\nThanks,\nThe Administration";
-		mail("forrestwong9@gmail.com", "apartmentrental.azurewebsites.net - Password Reset", $mailbody);
-		ini_set('display_errors',1);
+		mail($userExists["userName"], "apartmentrental.azurewebsites.net - Password Reset", $mailbody);
+		//ini_set('display_errors',1);
 		echo "Your password recovery key has been sent to your e-mail address.";
 		
 	}
