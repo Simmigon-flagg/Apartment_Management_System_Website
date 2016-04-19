@@ -14,6 +14,8 @@ $ses_sql = mysqli_query($conn,"select * from user where username = '$user_check'
 $row = mysqli_fetch_array($ses_sql,MYSQLI_ASSOC);
    
 $login_session = $row['iduser'];
+$login_firstName = $row['firstName'];
+$login_email = $row['userName'];
 
 //session_destroy();		//testing
 
@@ -40,7 +42,35 @@ if(isset($_POST['submit'])){
 		 $income = mysqli_real_escape_string($conn,$_POST['income']);
 		 
 		 if(mysqli_query($conn,"INSERT INTO applicant(iduser, socialSecurity, streetAddress, City, state, Zip, phoneNumber, employedBy, JobTitle, monthlyGrossPay) VALUES('$login_session','$ssn','$address','$city','$state','$zip','$phone','$employer','$job','$income')")){
-					 header("location:confirmationPage.php");
+			 
+			 include_once("PHPMailer-master/PHPMailerAutoload.php");
+
+			$mail = new PHPMailer();
+
+			$mail->IsSMTP();  // telling the class to use SMTP
+			$mail->Host     = "smtp.gmail.com"; // SMTP server
+			$mail->Port = 587;
+			$mail->SMTPSecure = 'tls';
+			$mail->SMTPAuth = true;
+
+			$mail->From     = "luxepropertiesatlanta@gmail.com";
+			$mail->Username   = "luxepropertiesatlanta@gmail.com";  // GMAIL username
+			$mail->Password   = "simmigon"; 
+			$mail->AddAddress($login_email);
+			$mail->FromName = "Luxe Properties Atlanta";
+
+			$mail->Subject  = "Luxe Properties Application Submitted";
+			$mail->Body     = "Welcome, ". $login_firstName ."! \n\nWe've received your application for Luxe Properties Atlanta and we will be reviewing it soon. You will hear back from us within 3-4 business days regarding your application status. \n\n\nLuxe Properties Atlanta";
+			//$mail->WordWrap = 50;
+
+			if(!$mail->Send()) {
+			  echo 'Message was not sent.';
+			  echo 'Mailer error: ' . $mail->ErrorInfo;
+			} else {
+			  echo 'Message has been sent.';
+			}
+			 
+			 header("location:confirmationPage.php");
 
 		 }else{
 			 echo mysqli_error($conn);		//prints out query error
