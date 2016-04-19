@@ -134,7 +134,8 @@ function showDivs(n) {
 <div class='list_columns'>
 <div id="col">
 <ul>
-<li><font size="3px">One, Two, Three bedroom floorplans</li>
+<font size= "3px";
+
 <li>Two 24 Hour Fitness Centers with Free Weights</li>
 <li>Organic Luxury Grocery Store Earth Fare On Site</li>
 <li>3 Saline Pools</li>

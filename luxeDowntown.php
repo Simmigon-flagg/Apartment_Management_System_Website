@@ -123,6 +123,32 @@ function showDivs(n) {
 </body>
 </html> 
    </div>
+   <div style="width: 500px; margin: 40px auto 0 auto;">
+<h2><p id="centerHeader"><font color= "black"><b><h1><font face="luxury-platinum">Amenities & Features<h1></b></font></p></h2>	
+<ul class='tab_nav'>
+      <ul class='tab_nav'>
+      </ul>
+<div class='tab' id='ammenity_community_tab'>
+<div class='list_columns'>
+<div id="col">
+<ul>
+<font size= "3px";
+
+<li>One, Two and Three bedroom floor-plans with spectacular city views</li>
+<li>Two 24 Hour Fitness Centers with Free Weights</li>
+<li>24- hour concierge</li>
+<li>3 Saline Pools</li>
+<li>Package Receiving</li>
+<li>100% Smoke Free Community</li>
+<li>4 Club lounges</li>
+<li>Abundant courtyards and green spaces</li>
+<li>Bark Park</li>
+<li>Clifton Shuttle</li>
+<li>Controlled Access Parking and Buildings</li>
+<li>Cyber Center with Meeting Space</li>
+</div>
+</div>
+</div>
 </div>
 <br>
 <br>
