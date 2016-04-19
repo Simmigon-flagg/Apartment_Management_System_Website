@@ -43,7 +43,7 @@
 <div class="w3-display-container mySlides">
   <img src="Images/LM3.jpg" style="width:100%">
   <div class="w3-display-topleft w3-large w3-container w3-padding-hor-16 w3-black">
-    one Bedroom Kitchen
+    One Bedroom Kitchen
   </div>
 </div>
 
@@ -90,9 +90,9 @@
 </div>
 
 <div class="w3-display-container mySlides">
-  <img src="Images/LM1bed.jpg" style="width:100%">
+  <img src="Images/LM1bed.png" style="width:100%">
   <div class="w3-display-topleft w3-large w3-container w3-padding-hor-16 w3-black">
-    Ansley Floorplan
+    Ansley Floor-plan
   </div>
 </div>
 
