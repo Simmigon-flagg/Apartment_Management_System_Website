@@ -1,5 +1,5 @@
 <?php include("userHeader.php");
-mysqli_close($conn);
+
 //include('session.php');
 //echo 'Welcome, ' .$login_session , '!';          //for testing. prints user's first name
 $to      = 'forrestwong9@gmail.com';
@@ -9,6 +9,8 @@ $headers = 'From: webmaster@example.com' . "\r\n" .
        'Reply-To: webmaster@example.com';
 
 mail($to, $subject, $message, $headers);
+
+mysqli_close($conn);
 ?>
 
 <html>
