@@ -48,60 +48,47 @@
    }
  mysqli_close($conn);
 ?>
-
 <html>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
-<meta name="author" content="your name" />
 <head>
 <title>My First Website</title>
 	<meta name="author" content="your name" />
 	<meta name="description" content="" />
 		<link rel="stylesheet" href="styles/style.css" type="text/css" />
-
-		<style>
-
-</style>
+		
 <body background= "">
-<body background= no-repeat> 
-
-<div style="width: 700px; margin: 50px auto 0 auto;">
-<div class="w3-card-4 w3-margin">
-<div class="w3-container w3-black">
-  <h2>Resident login</h2>
-<b><center><font color="red"><?php echo $invalid ?></font></center></b>
-</div>
-</br>
-<form class="w3-container" method="POST" role="form" action="">
 <body background= no-repeat> 	
 		
+	<h3 id="centerHeader" >Resident Login</h3>
+	<b><center><font color="red"><?php echo $invalid ?></font></center></b>
+<div style="width: 200px; margin: 100px auto 0 auto;">
+	<div id="main">
+	
 
-<p>
-<input class="w3-input" type="email" name="username" >
-<label for="username">Username</label>
 
-<p>      
-<input class="w3-input" type="password" name="pwd">
-<label label for="pwd">Password</label></p>
-
+<form action="" method="POST" role="form">
+  <div class="form-group">
+    <label for="username">Username:</label>
+    <input type="email" class="form-control" name="username">
   </div>
-  <div id = "centerHeader">
-    <div class="checkbox">
+  </div>
+  <div class="form-group">
+<p class="hidden"></p>
+    <label for="pwd">Password:</label>
+    <input type="password" class="form-control" name="pwd">
+  </div>
+  <div class="checkbox">
       <label><input type="checkbox" name="remember" value="1" checked> Remember me</label>
      <br>
 	 <a  href="forgotPassword.php">Forgot password?</a>
 	</div>
   <button type="submit" name="submit" class="btn btn-default">&nbsp;Submit</button>
-</div>
-</form>
+
+  </div>
 
   </div>
   </div>
 </form>
 </div>
-</div>
-</body>
-</html>
 
 <?php //include_once("footer.php");?>
 
