@@ -1,6 +1,6 @@
 <?php include("userHeader.php");
 
-var_dump($_REQUEST); 	
+//var_dump($_REQUEST); 	
    
 $login_aptNumber = "";
 $login_location = "";
