@@ -7,12 +7,12 @@ $login_location = "";
 $result = mysqli_query($conn,"select * from apartmentlocation where iduser = '$login_session' ");
 $row = mysqli_fetch_array($result,MYSQLI_ASSOC);
 $count = mysqli_num_rows($result);
+$login_price = $row['price'];
+$test_price = $login_price - $row['apr'];
 
 if($count == 1) {
 	$login_aptNumber = "Apt. " . $row['aptNumber'];
 	$login_location = $row['location'];
-	$login_price = $row['price'];
-	$test_price = $login_price - $row['apr'];
 }
 
 if(isset($_GET['submit'])) {
@@ -50,13 +50,6 @@ mysqli_close($conn);
 </form>
 </div>
 </div>
-<h2><p id="centerHeader"><font color= "black"> <p id="centerHeader">Your rent for this month is:<font color= "black"></h2> 
-<h2> $1,500 </h2>
-<h3> You are currently residing in: LUXE Buckhead #3000 <h3> <form> 
-
-</form>
-<br>
-<a class="btn" href="payInformation.php"> <button class="btn"><h4>Make Payment<h4></button> </a>
 
 
 <?php include("footer.php");?>
