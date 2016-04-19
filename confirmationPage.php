@@ -1,4 +1,4 @@
-?php
+<?php
 include("header.php");
 /*   include('data/dbConnect.php');
    session_start();
@@ -33,7 +33,7 @@ include("header.php");
 <div style="width: 1000px; margin: 40px auto 0 auto;">
 <h2><p id="centerHeader">Thank you for applying to Luxe
 <br>
-<font size="4px"> We look forward to reviewing your application and will contact you with a decision soon</font></h2></div>
+<font size="4px">You have been sent a confirmation email<br>We look forward to reviewing your application and will contact you with a decision soon</font></h2></div>
 <div style="width: 100px; margin: 40px auto 0 auto;">
 <form action="index.php"> 
 	<button type="submit" name="submit" class="btn btn-default">&nbsp;Home</button>

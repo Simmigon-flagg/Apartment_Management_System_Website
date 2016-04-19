@@ -7,7 +7,7 @@ $row = mysqli_fetch_array($result,MYSQLI_ASSOC);
 $count = mysqli_num_rows($result);
 
 if($count == 1) {
-	$login_aptNumber = "#" . $row['aptNumber'];
+	$login_aptNumber = "Apt. " . $row['aptNumber'];
 	$login_location = $row['location'];
 }
 
@@ -38,8 +38,8 @@ mysqli_close($conn);
    } 
    </style> 
 
-<p id="centerHeader"><font face="calibri" size="10px" color = "black"><b>WELCOME HOME</font></b></font></p>
-<h3  style="color:black;"><?php echo $login_location . " " . $login_aptNumber ?></h3>
+<p id="centerHeader"><font face="calibri" size="10px" color = "white"><b>WELCOME HOME</font></b></font></p>
+<h3  style="color:white;"><?php echo $login_location . " " . $login_aptNumber ?></h3>
 
 	</div>
 	<br>
