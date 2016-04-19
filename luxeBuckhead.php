@@ -133,7 +133,7 @@ function showDivs(n) {
 <div class='list_columns'>
 <div id="col">
 <ul>
-<font size= "3px";
+<font size= "3px";>
 
 <li>One, Two and Three bedroom floor-plans with spectacular city views</li>
 <li>Two 24 Hour Fitness Centers with Free Weights</li>
