@@ -34,14 +34,17 @@
 		 //setcookie('ID_my_site', $_POST['username'], $hour);                      //remember me
 		 
          header("location:userLogin.php");
+		 
+		 if($accepted != "1" ){			//if user hasn't been accepted, they cannot access website
+		  session_destroy();
+		  header("location:confirmationPage.php");
+		 }
+		 
       }else {
          $invalid = "Your Username or Password is invalid";
       }
 	  
-	  if($accepted != "1"){			//if user hasn't been accepted, they cannot access website
-		  session_destroy();
-		  header("location:confirmationPage.php");
-	  }
+	  
    }
  mysqli_close($conn);
 ?>
