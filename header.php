@@ -49,8 +49,7 @@
 	font-family: luxury-platinum; 
 	src: url('Images/luxury-platinum.otf');
 	} 
-	div {
-    font-family: luxury-platinum;
+
 }
   </style>
   
@@ -59,7 +58,7 @@
 <?php
 //include('session.php');
 ?>
-
+<div = "font">
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -81,6 +80,7 @@
       </ul>
     </div>
   </div>
+ </div>
 </nav>
 
 
