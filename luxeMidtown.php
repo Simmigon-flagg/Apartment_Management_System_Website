@@ -153,26 +153,6 @@ function showDivs(n) {
 </div>
 </div>
 
-<script type="text/javascript">
-  $(document).ready(function() {
-    var size = $("#data > p").size();
- $(".Column1 > p").each(function(index){
-  if (index >= size/2){
-   $(this).appendTo("#Column2");
-  }
- });
-  });
-</script>
-
-<div id="data" class="Column1" style="float:left;width:300px;">
-<!--   data Start -->
-<p>This is paragraph 1. Lorem ipsum ... </p>
-<p>This is paragraph 2. Lorem ipsum ... </p>
-<p>This is paragraph 3. Lorem ipsum ... </p>
-<p>This is paragraph 4. Lorem ipsum ... </p>
-<p>This is paragraph 5. Lorem ipsum ... </p>
-<p>This is paragraph 6. Lorem ipsum ... </p>
-<!--   data Emd-->
 </div>
 <div id="Column2" style="float:left;width:300px;"></div>
 <br>
