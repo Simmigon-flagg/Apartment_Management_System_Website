@@ -15,6 +15,5 @@
 </div>
 
 <div style="width: 500px; margin: 40px auto 0 auto;">
-<font size="4">You will recieve a confirmation email with details 
-about your payment.You can now close this window</font>
+<font size="4">You will recieve a confirmation email with details about your payment. You can now close this window</font>
 </div>

@@ -1,5 +1,7 @@
 <?php include("userHeader.php");
-   
+ 
+include_once("data/dbConnect.php");
+
 $login_aptNumber = "";
 $login_location = "";
 $result = mysqli_query($conn,"select * from apartmentlocation where iduser = '$login_session' ");
