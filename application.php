@@ -24,12 +24,12 @@ if(isset($_POST['submit']))
 		$pass = mysqli_real_escape_string($conn,$_POST['pwd']);
 		$passConfirm = mysqli_real_escape_string($conn,$_POST['pwdConfirm']);
 		
-		$check = mysqli_query($conn,"SELECT userName FROM user WHERE userName = '$email';");	//checks for already existing email in table
+		$check = mysqli_query($conn,"SELECT userName FROM users WHERE userName = '$email';");	//checks for already existing email in table
 		if (mysqli_num_rows($check) == 0) {
 
 			 if($pass == $passConfirm){
 			 
-				 if(mysqli_query($conn,"INSERT INTO user(firstName, lastName, userName, dateOfBirth, pass) VALUES('$firstname','$lastname','$email','$bday','$pass')"))
+				 if(mysqli_query($conn,"INSERT INTO users(firstName, lastName, userName, dateOfBirth, pass) VALUES('$firstname','$lastname','$email','$bday','$pass')"))
 				 {
 						$_SESSION['login_user'] = $email;
 						header("location:application2.php");
