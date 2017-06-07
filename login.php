@@ -7,7 +7,7 @@
    $invalid = "";
    
    if(isset($_POST['submit'])) {
-      // username and password sent from form 
+      // Does this work username and password sent from form 
 	   
       $myusername = mysqli_real_escape_string($conn,$_POST['username']);	//uncomment later
       $mypassword = mysqli_real_escape_string($conn,$_POST['pwd']); 		//uncomment later
