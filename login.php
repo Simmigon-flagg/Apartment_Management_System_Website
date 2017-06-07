@@ -14,7 +14,7 @@
 	  
 	  //$myusername = 'admin@admin.com'; $mypassword = 'admin';		//temporary. remove later
 	 
-      $sql = "SELECT iduser FROM user WHERE userName = '$myusername' AND pass = '$mypassword'";
+      $sql = "SELECT iduser FROM users WHERE userName = '$myusername' AND pass = '$mypassword'";
       $result = mysqli_query($conn,$sql);
       $row = mysqli_fetch_array($result,MYSQLI_ASSOC);
 	  $user_id = $row['iduser'];

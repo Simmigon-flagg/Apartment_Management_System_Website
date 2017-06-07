@@ -1,7 +1,7 @@
 <?php
 include 'dbConnect.php';
 
-$sql = "SELECT * FROM user;";
+$sql = "SELECT * FROM users;";
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
